@@ -37,4 +37,10 @@ header nav a{
 }
 
 
+.productFont{
+    color: black;
+    font-family: "Roboto Flex", sans-serif;
+    font-size: 21px;
+    font-weight:400;
+}
 
