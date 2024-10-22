@@ -81,25 +81,32 @@
         <div class="filter"style="display: flex;" >
           
            <select  class="product_type whiteColor" id="product_type" name="typeOptions">
-            <option value="" disabled selected hidden>sorted by product type</option>
-            <option value="option1">coffee equipment</option>
-            <option value="option2">coffe brand</option>
+            <option  value="" disabled selected hidden>sorted by product type</option>
+            <option class="optionStyle" value="option1">coffee equipment</option>
+            <option class="optionStyle"  value="option2">coffe brand</option>
             
         </select>
         <select  class="price  whiteColor" id="price" name="priceOptions">
-          <option value="" disabled selected hidden>sorted by  price</option>
-          <option value="option1">coffee equipment</option>
-          <option value="option2">coffe brand</option>
+          <option  value="" disabled selected hidden>sorted by  price</option>
+          <option class="optionStyle" value="option1">->+</option>
+          <option class="optionStyle" value="option2">+>-</option>
           
       </select>
             
           
-          <button class="whiteColor" type="button ">Filter</button>
+          <button class="whiteColor " type="button ">Filter</button>
         </div>
 
-        <input type="tel" name="" id="">
+        <div class="inputContainer">
+           <input  placeholder="Search by name"  type="tel" name="" id="search_input">
+           <a href="">  <img src="../../images/blackSearchicon-transformed.png" alt="" srcset=""></a>
+        </div>
+       
       </div>
+
+     
       
+
     </main>
 </body>
 </html>
