@@ -27,6 +27,8 @@ header nav a{
 
     text-decoration: none;
     color: white;
+    font-family: "Inria Serif", serif;
+    font-size: 20px;
 
 }
 
@@ -36,14 +38,59 @@ header nav a{
     fill: rgb(255, 255, 255);
 }
 
+
+
+main{
+    background-color: #E3D8CC;
+    width: 100%;
+    height: 2000px;
+}
+
 main .pageTitle{
     height: 235px;
     width: 100%;
     background-color: #664343;
+    align-content: center;
 
 }
 
 
+main .pageTitle h1{
+    margin: auto ;
+    width: fit-content;
+    height: fit-content;
+}
+main .pageTitle p{
+    width: 350px;
+    height: 33px;
+    margin: auto;
+    text-align: center;
+
+}
+
+main .Filter_searchBar{
+    background-color: aliceblue;
+    margin: auto;
+    width: 90%;
+    height: 220px;
+    display: flex;
+    justify-content: space-between;
+}
+main .Filter_searchBar .filter {
+    background-color: aliceblue;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 36%;
+    height: 220px;
+}
+main .Filter_searchBar .filter > *{
+    height:42px;
+    background-color: rgb(121, 87, 87,0.52);
+    border-radius:21px;
+    border:solid 3px #664343;
+}
 
 
 

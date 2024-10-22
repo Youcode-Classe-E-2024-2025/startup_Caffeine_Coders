@@ -1,5 +1,40 @@
+
 /* 
 **style font seulement ahmed et hamza peut le modifier
 
 ** si vous voulez le modifier, svp  demander
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+
+
+header nav a{
+
+    text-decoration: none;
+    color: white;
+    font-size:20px ;
+    font-family: "Inria Serif", serif;
+
+}
+
+.font-pagesTitle{
+    color: white;
+    font-size: 96px;
+    font-weight: 100;
+    font-family: "Rouge Script", cursive;
+}
+
+.simpleTextFont{
+    color: rgba(255, 255, 255, 0.568);
+    font-size: 16px;
+    font-family: "Roboto Flex", sans-serif;
+}
+
+.whiteColor{
+    color: white;
+}
+
+
+
