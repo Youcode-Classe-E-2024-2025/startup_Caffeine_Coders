@@ -2,6 +2,7 @@ html , body {
     margin: 0;
     padding: 0;
     width: 100%;
+    background-color: #E3D8CC;
     /* background-image: url(../../images/background-img.jpg); */
     /* height: 20%; */
     /* background-repeat: no-repeat; */
@@ -41,7 +42,7 @@ header nav a{
     fill: rgb(255, 255, 255);
 }
 .logo img {
-    width: 80px;
+    width: 100px;
     height: 80px;
 }
 
