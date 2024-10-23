@@ -199,7 +199,7 @@ main .Filter_searchBar .filter select .optionStyle{
     width: 133px;
     border: none;
     border-radius: 44px;
-    background-color:#664343;
+    background-color:var(--brown);
     position: absolute;
     bottom: -21px;
     

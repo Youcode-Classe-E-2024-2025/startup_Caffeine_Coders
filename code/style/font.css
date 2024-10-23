@@ -42,6 +42,11 @@ header nav a{
 }
 
 
+main .productsDisplay .ProductCard .ProductCardContent button {
+    font-family: var(--font-roboto);
+    font-size: 1.7rem;
+}
+
 /* <<<<<<< HEAD */
 /* ****************************************************************** */
 /* product details start  */
