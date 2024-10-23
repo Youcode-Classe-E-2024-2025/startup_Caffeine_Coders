@@ -42,15 +42,25 @@ header nav a{
 }
 
 
+/* <<<<<<< HEAD */
 /* ****************************************************************** */
 /* product details start  */
 .detail h2{
     font-family: var(--font-titre);
     font-size: 6rem;
     font-weight: 200;
-
-
 }
+/* ======= */
+.productFont{
+    color: black;
+    font-family: "Roboto Flex", sans-serif;
+    font-size: 21px;
+    font-weight:400;
+}
+/* >>>>>>> productDisplay */
+
+
+
 .detail .stock-status{
     font-family: var(--font-roboto);
     font-size: 1.6rem;

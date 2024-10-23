@@ -41,7 +41,7 @@ header nav a{
 
 
 main{
-    background-color: #E3D8CC;
+    /* background-color: #E3D8CC; */
     width: 100%;
     height: 2000px;
 }
@@ -71,6 +71,7 @@ main .pageTitle p{
 main .Filter_searchBar{
     /* background-color: aliceblue; */
     margin: auto;
+    margin-bottom: 20px;
     
     width: 85%;
     height: 220px;
@@ -88,11 +89,10 @@ main .Filter_searchBar .filter {
     height: 220px;
 }
 main .Filter_searchBar .filter > *{
-    height:42px;
-    background-color: rgb(121, 87, 87,0.52);
-    border-radius:21px;
-    border:solid 3px #664343;
-    padding-left: 10px;
+    background-color: rgb(121, 87, 87, 0.52);
+    border-radius: 21px;
+    border: solid 3px #664343;
+    padding: 10px 15px;
     outline: none;
     
 }
@@ -134,10 +134,14 @@ main .Filter_searchBar .filter select .optionStyle{
 
  }
  main .productsDisplay{
-    background-color: rgb(2, 120, 120);
+    background-color: #E3D8CC;
     height: 600px;
     width: 90%;
     margin: 0 5%;
+    display: flex;
+    
+    flex-wrap: wrap;
+    gap: 30px;
 
  }
 
@@ -145,7 +149,7 @@ main .Filter_searchBar .filter select .optionStyle{
        
     height: 386px;
     width: 261px;
-    background-color: rgb(255, 255, 255);
+    /* background-color: #E3D8CC; */
        
  }
  
@@ -153,10 +157,9 @@ main .Filter_searchBar .filter select .optionStyle{
 
     width:100% ;
     height: 100%;
-    border-radius: 0 0 40px 40px;
-
-    background-color: aqua;
-
+    border-radius: 5px 5px 70px 70px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 2px 4px 1px rgba(0, 0, 0, 0.139);
  }
 
  main .productsDisplay .ProductCard .ProductCardContent img{
@@ -168,6 +171,32 @@ main .Filter_searchBar .filter select .optionStyle{
 
 
  }
+ main .productsDisplay .ProductCard .ProductCardContent .productName {
+    
+    margin-left: 27%;
+    
+ }
+ main .productsDisplay .ProductCard .ProductCardContent .productPrice {
+    
+    margin-left: 37%;
+    margin-top: -1%;
+    
+ }
+ main .productsDisplay .ProductCard .ProductCardContent button {
+    
+    height: 42px;
+    width: 133px;
+    border: none;
+    border-radius: 44px;
+    background-color:#664343;
+    margin-bottom: -22px;
+    margin-left: 24%;
+    cursor: pointer;
+   
+    box-shadow: 5px 5px 10px 1px  rgba(0, 0, 0, 0.3);
+    
+ }
+ 
  
 
 
