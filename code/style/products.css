@@ -44,6 +44,8 @@ main{
     /* background-color: #E3D8CC; */
     width: 100%;
     height: 2000px;
+
+    margin-bottom: 300px;
 }
 
 main .pageTitle{
@@ -141,14 +143,17 @@ main .Filter_searchBar .filter select .optionStyle{
     display: flex;
     
     flex-wrap: wrap;
-    gap: 30px;
+    row-gap: 100px;
+    column-gap: 30px;
 
  }
 
  main .productsDisplay .ProductCard{
        
-    height: 386px;
+    height: 365px;
     width: 261px;
+    position: relative;
+    /* margin-bottom: 50px; */
     /* background-color: #E3D8CC; */
        
  }
@@ -160,28 +165,34 @@ main .Filter_searchBar .filter select .optionStyle{
     border-radius: 5px 5px 70px 70px;
     background-color: rgb(255, 255, 255);
     box-shadow: 1px 2px 4px 1px rgba(0, 0, 0, 0.139);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    
  }
 
  main .productsDisplay .ProductCard .ProductCardContent img{
     
-    width: 90%;
-    margin: 3% 3% 5%  5%;
+    width: 237px;
+    height: 223px;
+    object-fit: cover;
+
+
+    
     
    
 
 
  }
- main .productsDisplay .ProductCard .ProductCardContent .productName {
+ main .productsDisplay .ProductCard .ProductCardContent .cardDescription {
     
-    margin-left: 27%;
-    
- }
- main .productsDisplay .ProductCard .ProductCardContent .productPrice {
-    
-    margin-left: 37%;
-    margin-top: -1%;
+    line-height: 20px; 
+    text-align: center;
     
  }
+
  main .productsDisplay .ProductCard .ProductCardContent button {
     
     height: 42px;
@@ -189,10 +200,10 @@ main .Filter_searchBar .filter select .optionStyle{
     border: none;
     border-radius: 44px;
     background-color:#664343;
-    margin-bottom: -22px;
-    margin-left: 24%;
+    position: absolute;
+    bottom: -21px;
+    
     cursor: pointer;
-   
     box-shadow: 5px 5px 10px 1px  rgba(0, 0, 0, 0.3);
     
  }
