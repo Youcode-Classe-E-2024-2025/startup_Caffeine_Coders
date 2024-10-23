@@ -91,12 +91,17 @@ main .Filter_searchBar .filter {
     height: 220px;
 }
 main .Filter_searchBar .filter > *{
-    background-color: rgb(121, 87, 87, 0.52);
+    background-color: rgba(121, 87, 87, 0.37);
     border-radius: 21px;
-    border: solid 3px #664343;
+    border: solid 2px #664343;
     padding: 10px 15px;
     outline: none;
     
+}
+main .Filter_searchBar .filter button{
+    background-color: var(--brown);
+    border: solid 1px #0a0a0a;
+
 }
 main .Filter_searchBar .filter :last-child{
    width: 90px;
@@ -137,11 +142,11 @@ main .Filter_searchBar .filter select .optionStyle{
  }
  main .productsDisplay{
     background-color: #E3D8CC;
-    height: 600px;
+    height: fit-content;
     width: 90%;
-    margin: 0 5%;
+    margin: auto;
     display: flex;
-    
+  padding-bottom: 100px;
     flex-wrap: wrap;
     row-gap: 100px;
     column-gap: 30px;
