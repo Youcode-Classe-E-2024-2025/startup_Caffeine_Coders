@@ -31,7 +31,11 @@ function fetchProducts() {
       // Add product name, image, and price with proper formatting
       productDiv.innerHTML = `
         <div class="ProductCardContent">
-          <img src="${product.img}" alt="Image of ${product.name}">
+       
+        <a href="productDetails.html" onclick="detailsId(${product.id})">
+    <img src="${product.img}" alt="Image of ${product.name}" class="product-image">
+        </a>
+          
           <div class="cardDescription">
             <p class="productName productFont">
               ${product.name}
