@@ -10,7 +10,16 @@
     grid-template-columns: 3fr 4fr;
     gap: 5rem;
 }
-
+h2{
+    font-family: var(--font-inria);
+    font-size: 4.8rem;
+    margin: 80px auto;
+    /* border: 1px solid red;  */
+    font-weight: 700;
+    text-align: center;
+    color: var(--brown);
+    
+}
 .product-detail .detail-left {
     display: flex;
     flex-direction: column;
