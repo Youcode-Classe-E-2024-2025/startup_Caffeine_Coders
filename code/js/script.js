@@ -1,16 +1,18 @@
-
+var retunrList;
 function fetchProducts() {
-    fetch('../js/data.json') // Adjust the path if necessary
+    fetch('../js/data.json') 
       .then(response => {
-        // Check if the response is ok (status in the range 200-299)
+        
         if (!response.ok) {
           throw new Error('Network response was not ok' + response.statusText);
         }
-        return response.json(); // Parse the JSON data
+        return response.json();
       })
       .then(products => {
-        // Call displayProducts and pass the fetched products
+        
+        retunrList=products;
         displayProducts(products);
+
       })
       .catch(error => {
         console.error('There was a problem with the fetch operation:', error);
@@ -20,19 +22,18 @@ function fetchProducts() {
   function displayProducts(products) {
     const productList = document.querySelector('.productsDisplay');
   
-    // Clear the existing product list (if any)
+   
     productList.innerHTML = '';
   
-    // Loop through the products array and create HTML elements for each product
+ 
     products.forEach(product => {
       const productDiv = document.createElement('div');
       productDiv.className = 'ProductCard';
   
-      // Add product name, image, and price with proper formatting
+     
       productDiv.innerHTML = `
         <div class="ProductCardContent">
-       
-        <a href="productDetails.html" onclick="detailsId(${product.id})">
+        <a href="productDetails.html" onclick="storeProductId(${product.id})">
     <img src="${product.img}" alt="Image of ${product.name}" class="product-image">
         </a>
           
@@ -48,10 +49,19 @@ function fetchProducts() {
         </div>
       `;
   
-      // Append the product div to the product list container
+      
       productList.appendChild(productDiv);
     });
   }
-  
+  function storeProductId(id) {
+    localStorage.setItem('selectedProductId', id); 
+}
   fetchProducts();
   
+//  const searchContent = document.getElementById('search_input');
+//  function getByName(){
+//     const name=searchContent.value;
+//     console.log('Input value:', inputValue);
+//  }
+
+
