@@ -3,3 +3,29 @@
 
 ** si vous voulez le modifier, svp  demander
 */
+
+/* large screen 1280 and up  */
+@media  (min-width:1280px){
+    body{
+        background-color: aqua;
+    }
+}
+@media  (min-width:1280px){
+    body{
+        background-color: aqua;
+    }
+}
+/* tablet (green) */
+@media  (max-width:800px){
+    body{
+        background-color: rgb(21, 255, 0);
+    }
+    
+}
+/* phone (blue) */
+
+@media  (max-width:400px){
+    body{
+        background-color: rgb(4, 0, 255);
+    }
+}
