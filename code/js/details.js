@@ -1,4 +1,4 @@
-let list = []; 
+let listDetails = []; 
 const img = document.querySelector('.productImg');
 const nname = document.querySelector('.productName');
 const stock = document.querySelector('.stock-status');
@@ -11,7 +11,7 @@ window.onload = function() {
 };
 
 function fetchProducts() {
-    fetch('../js/data.json') 
+    fetch('../data/data.json') 
         .then(response => {
             if (!response.ok) {
                 throw new Error('Network response was not ok: ' + response.statusText);
@@ -19,7 +19,7 @@ function fetchProducts() {
             return response.json(); 
         })
         .then(products => {
-            list = products;
+            listDetails = products;
             displayProductDetails();
         })
         .catch(error => {
@@ -28,20 +28,25 @@ function fetchProducts() {
 }
 
 function displayProductDetails() {
-    console.log(list);
-    console.log(); 
+    console.log(listDetails);
+   
     
     
     const selectedProductId = localStorage.getItem('selectedProductId'); 
-    const product = list.find(item => item.id == selectedProductId); 
-
+    const product = listDetails.find(item => item.id == selectedProductId); 
+    console.log(selectedProductId);
+     console.log(product);
+     console.log('test');
+     
+     
     if (product) {
         img.setAttribute('src', product.img);
         nname.textContent = product.name;
-        stock.textContent = '40 in stock'; 
+        stock.textContent = product.stock_status;
         price.textContent = `${product.price} DH`;
-        desc.textContent =  product.name; 
+        desc.textContent =  product.desc; 
     } else {
         console.error(`Product with ID ${selectedProductId} not found.`);
     }
 }
+displayProductDetails();

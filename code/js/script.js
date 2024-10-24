@@ -22,7 +22,7 @@ if(burger_menu.style.display === 'none' ){
 
 var retunrList;
 function fetchProducts() {
-    fetch('../js/data.json') 
+    fetch('../data/data.json') 
       .then(response => {
         
         if (!response.ok) {
@@ -42,6 +42,8 @@ function fetchProducts() {
   }
   
   function displayProducts(products) {
+    console.log(retunrList);
+    
     const productList = document.querySelector('.productsDisplay');
   
    
@@ -91,7 +93,7 @@ function fetchProducts() {
      event.preventDefault();
     const Sname=searchContent.value;
     console.log('Input value:', Sname);
-    const Sproduct = list.filter(
+    const Sproduct = retunrList.filter(
       item =>  item.name.toLowerCase().includes(Sname.toLowerCase()) || item.desc.toLowerCase().includes(Sname.toLowerCase())
     ); 
     console.log(Sproduct);
@@ -102,8 +104,37 @@ function fetchProducts() {
 // filter By product type and price 
 
 
+ 
+function filterBy(){
+const selectbytype = document.getElementsByClassName('product_type');
+const selectbyPrice = document.getElementsByClassName('price'); 
+// Get the value of the selected option
+const selectedValue = selectbytype[0].value; 
+const priceSort=selectbyPrice[0].value;
+var listByProductType=[];
+console.log('Selected value:', priceSort);
+     if(selectedValue!==''){
+       console.log(retunrList);
+       
+        listByProductType=retunrList.filter(
+       item =>  item.type_of_product.toLowerCase()==selectedValue)  
+      }
 
 
+     if (priceSort=='+') {
+      
+      listByProductType.sort((a, b) => a.price - b.price);
+
+     } else if(priceSort=='-'){
+      listByProductType.sort((a, b) => b.price - a.price);
+     }
+     
+
+
+
+
+ displayProducts(listByProductType);
+}
  
 
 
