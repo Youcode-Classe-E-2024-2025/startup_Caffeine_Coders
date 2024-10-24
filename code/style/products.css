@@ -218,9 +218,9 @@ main .Filter_searchBar .filter select .optionStyle{
 
  /* burger-icon */
  @media  (max-width:600px){
-    body{
-        background-color: rgb(4, 0, 255);
-
+    
+    header{
+        height: 51px; ;
     }
     /* #burgerIconId #svgdisplay{
         display: none;
@@ -229,8 +229,9 @@ main .Filter_searchBar .filter select .optionStyle{
         display: none;
     }
     
+    
     .Filter_searchBar {
-
+      width: 100%;
      display: block;
      flex-direction: column;
      padding-bottom: 30px;
@@ -238,14 +239,21 @@ main .Filter_searchBar .filter select .optionStyle{
     }
     main .Filter_searchBar .filter {
         width: 100%;
-        gap: 5%;
+        gap: 2%;
+        margin-left: -40px;
     }
     main .Filter_searchBar .filter >* {
+        
         padding: 10px 5px;
+        font-size: 12px;
+    }
+    main .Filter_searchBar .filter button{
+        height: 30px;
+        width: 100px;
     }
 
     main .pageTitle {
-        height: 135px;
+        height: 115px;
     }
     .font-pagesTitle{
         
@@ -253,37 +261,57 @@ main .Filter_searchBar .filter select .optionStyle{
         
     }
     main .productsDisplay{
-        padding-left: 30px;
-        gap: 90px;
+       
+        padding-left: 10px;
+        gap: 24px;
     }
     main .productsDisplay .ProductCard .ProductCardContent button {
         height: 24px;
-        width: 73px;
+        width: 72px;
         border: none;
         border-radius: 44px;
-        
         position: absolute;
         margin-bottom: 8px;
-       
+        font-size: 9px;
         box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.3);
     }
     main .productsDisplay .ProductCard {
         height: 210px; width: 145px;
+        margin-bottom: 20px;
     }
-    main .productsDisplay .ProductCard .ProductCardContent img { width: 131px; height: 128px; object-fit: cover; }
-    .productFont { font-size: 12px;  }
-    .productFont {  font-size: 11px;  }
-    button { height: 24PX; width: 73px;   bottom: -12px; }
-    main .productsDisplay .ProductCard .ProductCardContent { height: 100%; width: 100%;    border-radius: 5px 5px 50px 50px; padding: 10px; display: flex; flex-direction: column; align-items: center; }
-    main .productsDisplay .ProductCard .ProductCardContent button {  font-size: 0.9rem; }
-    main .productsDisplay .ProductCard .ProductCardContent .cardDescription { line-height: 10px; text-align: center; }
+    main .productsDisplay .ProductCard .ProductCardContent img {
+         width: 131px; height: 128px; 
+         object-fit: cover; 
+        }
+
+    .productFont { 
+        font-size: 12px; 
+     }
+
+    
+    button {
+         height: 24PX; width: 73px;  
+          bottom: -12px;
+         }
+    main .productsDisplay .ProductCard .ProductCardContent { 
+        height: 100%; width: 100%;    
+        border-radius: 5px 5px 50px 50px;
+         padding: 10px; 
+         display: flex; 
+         flex-direction: column;
+          align-items: center; 
+        }
+    
+    main .productsDisplay .ProductCard .ProductCardContent .cardDescription { 
+        line-height: 10px;
+         text-align: center; 
+        }
     
 }
 
  @media  (max-width:400px){
     body{
-        background-color: rgb(4, 0, 255);
-
+        
     }
     
     
