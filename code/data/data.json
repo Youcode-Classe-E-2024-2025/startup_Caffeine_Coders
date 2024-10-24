@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "name": "Product 1",
+    "type_of_product": "machine",
+    "desc": "description of Product 1 description of Product 1 description of Product 1 description of Product 1 description of Product 1 description of Product 1 description of Product 1 description of Product 1 ",
+    "stock_status": "54 in stock",
+    "img": "../../images/productImg1.png",
+    "price": 29.99
+  },
+  {
+    "id": 2,
+    "name": "Product 2",
+    "type_of_product": "machine",
+    "desc": "description of Product 2 description of Product 2 description of Product 2 description of Product 2 description of Product 2 description of Product 2 description of Product 2 description of Product 2 ",
+    "stock_status": "55 in stock",
+    "img": "../../images/productImg1.png",
+    "price": 12.99
+  },
+  {
+    "id": 3,
+    "name": "Product 3",
+    "type_of_product": "machine",
+    "desc": "description of Product 3 description of Product 3 description of Product 3 description of Product 3 description of Product 3 description of Product 3 description of Product 3 description of Product 3 ",
+    "stock_status": "40 in stock",
+    "img": "../../images/productImg1.png",
+    "price": 500.99
+  },
+  {
+    "id": 4,
+    "name": "Product 4",
+    "type_of_product": "machine",
+    "desc": "description of Product 4 description of Product 4 description of Product 4 description of Product 4 description of Product 4 description of Product 4 description of Product 4 description of Product 4 ",
+    "stock_status": "13 in stock",
+    "img": "../../images/productImg1.png",
+    "price": 980.99
+  },
+  {
+    "id": 5,
+    "name": "Product 5",
+    "type_of_product": "drink",
+    "desc": "description of Product 5 description of Product 5 description of Product 5 description of Product 5 description of Product 5 description of Product 5 description of Product 5 description of Product 5 ",
+    "stock_status": "100 in stock",
+    "img": "../../images/productImg1.png",
+    "price": 15.99
+  },
+  {
+    "id": 6,
+    "name": "Product 6",
+    "type_of_product": "drink",
+    "desc": "description of Product 6 description of Product 6 description of Product 6 description of Product 6 description of Product 6 description of Product 6 description of Product 6 description of Product 6 ",
+    "stock_status": "45 in stock",
+    "img": "../../images/productImg1.png",
+    "price": 25.99
+  },
+  {
+    "id": 7,
+    "name": "Product 7",
+    "type_of_product": "drink",
+    "desc": "description of Product 7 description of Product 7 description of Product 7 description of Product 7 description of Product 7 description of Product 7 description of Product 7 description of Product 7 ",
+    "stock_status": "70 in stock",
+    "img": "../../images/productImg1.png",
+    "price": 35.99
+  },
+  {
+    "id": 8,
+    "name": "Product 8",
+    "type_of_product": "drink",
+    "desc": "description of Product 8 description of Product 8 description of Product 8 description of Product 8 description of Product 8 description of Product 8 description of Product 8 description of Product 8 ",
+    "stock_status": "10 in stock",
+    "img": "../../images/productImg1.png",
+    "price": 45.99
+  },
+  {
+    "id": 9,
+    "name": "Product 9",
+    "type_of_product": "drink",
+    "desc": "description of Product 9 description of Product 9 description of Product 9 description of Product 9 description of Product 9 description of Product 9 description of Product 9 description of Product 9 ",
+    "stock_status": "3 in stock",
+    "img": "../../images/productImg1.png",
+    "price": 55.99
+  },
+  {
+    "id": 10,
+    "name": "Product 10",
+    "type_of_product": "drink",
+    "desc": "description of Product 10 description of Product 10 description of Product 10 description of Product 10 description of Product 10 description of Product 10 description of Product 10 description of Product 10 ",
+    "stock_status": "out of stock",
+    "img": "../../images/productImg1.png",
+    "price": 65.99
+  },
+  {
+    "id": 11,
+    "name": "Product 11",
+    "type_of_product": "drink",
+    "desc": "description of Product 11 description of Product 11 description of Product 11 description of Product 11 description of Product 11 description of Product 11 description of Product 11 description of Product 11 ",
+    "stock_status": "out of stock",
+    "img": "../../images/productImg1.png",
+    "price": 75.99
+  },
+  {
+    "id": 12,
+    "name": "Product 12",
+    "type_of_product": "object",
+    "desc": "description of Product 12 description of Product 12 description of Product 12 description of Product 12 description of Product 12 description of Product 12 description of Product 12 description of Product 12 ",
+    "stock_status": "40 in stock",
+    "img": "../../images/productImg1.png",
+    "price": 85.99
+  },
+  {
+    "id": 13,
+    "name": "Product 13",
+    "type_of_product": "object",
+    "desc": "description of Product 13 description of Product 13 description of Product 13 description of Product 13 description of Product 13 description of Product 13 description of Product 13 description of Product 13 ",
+    "stock_status": "out of stock",
+    "img": "../../images/productImg1.png",
+    "price": 95.99
+  },
+  {
+    "id": 14,
+    "name": "Product 14",
+    "type_of_product": "object",
+    "desc": "description of Product 14 description of Product 14 description of Product 14 description of Product 14 description of Product 14 description of Product 14 description of Product 14 description of Product 14 ",
+    "stock_status": "98 in stock",
+    "img": "../../images/productImg1.png",
+    "price": 105.99
+  },
+  {
+    "id": 15,
+    "name": "Product 15",
+    "type_of_product": "object",
+    "desc": "description of Product 15 description of Product 15 description of Product 15 description of Product 15 description of Product 15 description of Product 15 description of Product 15 description of Product 15 ",
+    "stock_status": "20 in stock",
+    "img": "../../images/productImg1.png",
+    "price": 115.99
+  },
+  {
+    "id": 16,
+    "name": "Product 16",
+    "type_of_product": "object",
+    "desc": "description of Product 16 description of Product 16 description of Product 16 description of Product 16 description of Product 16 description of Product 16 description of Product 16 description of Product 16 ",
+    "stock_status": "8 in stock",
+    "img": "../../images/productImg1.png",
+    "price": 125.99
+  },
+  {
+    "id": 17,
+    "name": "Product 17",
+    "type_of_product": "object",
+    "desc": "description of Product 17 description of Product 17 description of Product 17 description of Product 17 description of Product 17 description of Product 17 description of Product 17 description of Product 17 ",
+    "stock_status": "40 in stock",
+    "img": "../../images/productImg1.png",
+    "price": 135.99
+  },
+  {
+    "id": 18,
+    "name": "Product 18",
+    "type_of_product": "machine",
+    "desc": "description of Product 18 description of Product 18 description of Product 18 description of Product 18 description of Product 18 description of Product 18 description of Product 18 description of Product 18 ",
+    "stock_status": "out of stock",
+    "img": "../../images/productImg1.png",
+    "price": 145.99
+  },
+  {
+    "id": 19,
+    "name": "Product 19",
+    "type_of_product": "machine",
+    "desc": "description of Product 19 description of Product 19 description of Product 19 description of Product 19 description of Product 19 description of Product 19 description of Product 19 description of Product 19 ",
+    "stock_status": "22 in stock",
+    "img": "../../images/productImg1.png",
+    "price": 155.99
+  },
+  {
+    "id": 20,
+    "name": "Product 20",
+    "type_of_product": "machine",
+    "desc": "description of Product 20 description of Product 20 description of Product 20 description of Product 20 description of Product 20 description of Product 20 description of Product 20 description of Product 20 ",
+    "stock_status": "30 in stock",
+    "img": "../../images/productImg1.png",
+    "price": 185.99
+  }
+]
