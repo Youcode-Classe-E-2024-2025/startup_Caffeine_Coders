@@ -28,6 +28,10 @@ function fetchProducts() {
 }
 
 function displayProductDetails() {
+    console.log(list);
+    console.log(); 
+    
+    
     const selectedProductId = localStorage.getItem('selectedProductId'); 
     const product = list.find(item => item.id == selectedProductId); 
 
