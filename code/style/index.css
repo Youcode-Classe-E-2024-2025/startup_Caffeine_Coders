@@ -254,8 +254,10 @@ header nav a:hover{
     color: #795757;
     text-align: center;
     margin-top: 200px;
+    width: 100%;
 }
 .product-section{
+    width: 98%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -265,11 +267,15 @@ header nav a:hover{
 .product-section i{
     font-size: 6rem;
     color: #522504;
+    cursor: pointer;
 }
 
 .product-container{
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); 
+    /* column-gap: 0px; */
+    scrollbar-width: none; 
+    overflow-x: auto;
     
 }
 

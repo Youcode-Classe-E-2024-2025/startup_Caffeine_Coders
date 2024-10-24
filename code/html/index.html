@@ -16,6 +16,7 @@
     <!-- css pour cette page seulement !!!!!  -->
     <link rel="stylesheet" href="../style/index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
     <title>home</title>
 </head>
 
@@ -70,8 +71,8 @@
         <section class="product">
             <h2>New Products</h2>
             <div class="product-section">
-                <i class="fa-solid fa-circle-arrow-left"></i>
-                <div class="product-container">
+                <i class="fa-solid fa-circle-arrow-left" onclick="scrollLeftSlider()"></i>
+                <div class="product-container" id="product-containerX">
                     <div class="product-card">
                         <img src="../../images/cappuccino.png" alt="">
                         <h3>Cappuccino</h3>
@@ -94,13 +95,6 @@
                         <p>$8.50</p>
                         <button class="btn-product">Order Now</button>
                     </div>
-                    <!-- <div class="product-card">
-                        <img src="../../images/expresso.png" alt="">
-                        <h3>Cappuccino</h3>
-                        <h4>Coffe 50% | Milk 50%</h4>
-                        <p>$8.50</p>
-                        <button class="btn-product">Order Now</button>
-                    </div>
                     <div class="product-card">
                         <img src="../../images/expresso.png" alt="">
                         <h3>Cappuccino</h3>
@@ -114,11 +108,18 @@
                         <h4>Coffe 50% | Milk 50%</h4>
                         <p>$8.50</p>
                         <button class="btn-product">Order Now</button>
-                    </div> -->
+                    </div>
+                    <div class="product-card">
+                        <img src="../../images/expresso.png" alt="">
+                        <h3>Cappuccino</h3>
+                        <h4>Coffe 50% | Milk 50%</h4>
+                        <p>$8.50</p>
+                        <button class="btn-product">Order Now</button>
+                    </div>
                    
                    
                 </div>
-                <i class="fa-solid fa-circle-arrow-right"></i>
+                <i class="fa-solid fa-circle-arrow-right" onclick="scrollRight()"></i>
             </div>
 
 
@@ -126,8 +127,30 @@
         <section class="product">
             <h2>The best selling products </h2>
             <div class="product-section">
-                <i class="fa-solid fa-circle-arrow-left"></i>
-                <div class="product-container">
+                <i class="fa-solid fa-circle-arrow-left" onclick="secondScrollLeftSlider()" ></i>
+                <div class="product-container" id="secondProduct-containerX">
+                    <div class="product-card">
+                        <img src="../../images/mugs.png" alt="">
+                        <h3>Cappuccino</h3>
+                        <h4>Coffe 50% | Milk 50%</h4>
+                        <p>$8.50</p>
+                        <button class="btn-product">Order Now</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="../../images/coffee-maker.png" alt="">
+                        <h3>Cappuccino</h3>
+                        <h4>Coffe 50% | Milk 50%</h4>
+                        <p>$8.50</p>
+                        <button class="btn-product">Order Now</button>
+                    </div>
+                    
+                    <div class="product-card">
+                        <img src="../../images/mug.png" alt="">
+                        <h3>Cappuccino</h3>
+                        <h4>Coffe 50% | Milk 50%</h4>
+                        <p>$8.50</p>
+                        <button class="btn-product">Order Now</button>
+                    </div>
                     <div class="product-card">
                         <img src="../../images/mugs.png" alt="">
                         <h3>Cappuccino</h3>
@@ -153,12 +176,12 @@
                     <!-- <button class="btn-product">Order Now</button> -->
                    
                 </div>
-                <i class="fa-solid fa-circle-arrow-right"></i>
+                <i class="fa-solid fa-circle-arrow-right" onclick="secondScrollRight()"></i>
             </div>
 
 
         </section>
-        <script src="script.js"></script>
+        
 
 
 
@@ -319,7 +342,8 @@
             <div class="icon"></div>
         </div>
     </footer>
-    
+    <script src="../js/index.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
