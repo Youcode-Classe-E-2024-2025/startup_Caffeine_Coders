@@ -43,12 +43,13 @@ header{
 
 
 header nav {
-    width: 50%;
+    /* width: 50%; */
     height: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-right: 3%;
+    gap: 30px;
+    /* margin-right: 3%; */
 
 
 
@@ -63,7 +64,9 @@ header nav > a{
 }
 
 .logo img {
-    width: auto;
+    padding: 5px;
+    width: 80px;
+    object-fit: cover;
     height: 80px;
 }
 .nav-icons div svg{
@@ -98,12 +101,14 @@ font-size: 2rem;
     border: 1px solid var(--dark);
     /* transform: scale(1.02); */
 }
+
 .burger-icon{
+    display: none;
     height: fit-content;
     width: fit-content;
 }
 .burger-icon:hover svg{
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 /* .rotate-90-burger{
     transform: rotate(90deg);
@@ -118,7 +123,7 @@ font-size: 2rem;
 }
 
 .burger-icon svg {
-    transition: transform 1s;
+    transition: transform .3s;
     
     width:27px ;
     height:27px;

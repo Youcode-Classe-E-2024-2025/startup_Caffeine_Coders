@@ -6,43 +6,39 @@
 
 /* large screen 1280 and up  */
 @media  (min-width:1280px){
-    body{
-        background-color: aqua;
-    }
+  
 }
 @media  (max-width:1100px){
     html{
         font-size: 9px;
     }
-    body{
-        background-color: aqua;
-    }
-
+  
+ /* product page start */
     .product-detail {
         width: 95vw;
         padding: 1rem 3rem 2rem 1rem;
         gap: 2rem;
-        
-
-
+      
     }
+     /* product page end */
 }
 
 /* tablet (green) */
 @media  (max-width:800px){
+    .burger-icon{
+        display: block;
+    }
     html{
         font-size: 7px;
     }
-    body{
-        background-color: rgb(21, 255, 0);
-    }
+    
     nav.hidden{
         display: none;
     }
     main .pageTitle{
     height: 150px;
     }
-    
+     /* product page start */
     .product-detail {
         width: 98vw;
         padding: 1rem 1rem 2rem 1rem;
@@ -64,6 +60,7 @@
     height: 230px;
         width: 100%;
     }
+     /* product page end */
 }
 /* phone (blue) */
 
@@ -71,9 +68,7 @@
     html{
         font-size: 5px;
     }
-    body{
-        background-color: rgb(4, 0, 255);
-    }
+    /* product page start */
     .product-detail {
         grid-template-columns: 1fr;
         height: fit-content;
@@ -111,7 +106,7 @@ gap: 10px;
         /* grid-column: 1/-1; */
         grid-row: 4/-1;
       }
-      
+       /* product page end */
       
 
 
