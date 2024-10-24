@@ -53,10 +53,10 @@
         <div class="div-container">
                         <!-- question 1 -->
                 <div>
-                    <div class="questions-style">
+                    <div class="questions-style btn-fqa">
                          <p > What types of coffee do you offer ?</p>
                     
-                    <div class="centre-question">
+                    <div class="centre-question ">
                         <svg class="svg-style" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 144L48 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l144 0 0 144c0 17.7 14.3 32 32 32s32-14.3 32-32l0-144 144 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-144 0 0-144z"/></svg>
                     </div>
                 </div>
@@ -66,10 +66,10 @@
     
                         <!-- question 2 -->
                 <div> 
-                    <div class="questions-style">
+                    <div class="questions-style btn-fqa">
                         <p > Can I track my order after purchase ?</p>
                    
-                   <div class="centre-question">
+                   <div class="centre-question ">
                        <svg class="svg-style" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 144L48 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l144 0 0 144c0 17.7 14.3 32 32 32s32-14.3 32-32l0-144 144 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-144 0 0-144z"/></svg>
                    </div>
                </div>
@@ -79,10 +79,10 @@
                 
                         <!-- question 3 -->
                 <div> 
-                    <div class="questions-style">
+                    <div class="questions-style btn-fqa">
                       <p > Are the coffee machines under warranty ?</p>
 
-                        <div class="centre-question">
+                        <div class="centre-question ">
                             <svg class="svg-style" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 144L48 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l144 0 0 144c0 17.7 14.3 32 32 32s32-14.3 32-32l0-144 144 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-144 0 0-144z"/></svg>
                         </div>
                     </div>
@@ -93,9 +93,9 @@
                
                         <!-- question 4 -->
                 <div> 
-                    <div class="questions-style">
+                    <div class="questions-style btn-fqa">
                         <p > Do you sell organic or fair trade coffee ?</p>
-                   <div class="centre-question">
+                   <div class="centre-question ">
                        <svg class="svg-style" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 144L48 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l144 0 0 144c0 17.7 14.3 32 32 32s32-14.3 32-32l0-144 144 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-144 0 0-144z"/></svg>
                    </div>
                </div>
@@ -161,5 +161,28 @@
             <div class="icon"></div>
         </div>
     </footer> -->
+    <script>
+        
+        const questions = document.querySelectorAll('.btn-fqa');
+    
+        //la repetetion de meme boucle sur tout les quetions
+        questions.forEach(question => {
+            question.addEventListener('click', () => {
+            //    fermeture des autres reponse 
+                const allAnswers = document.querySelectorAll('.inswers-style');
+                allAnswers.forEach(answer => {
+                    answer.style.display = 'none';  // masquer toutes les réponses
+                });
+    
+                // selection de la reponse du question 
+                const answer = question.nextElementSibling;
+    
+                // l'affichage du reponse si il est masquer 
+                if (answer.style.display === "none" ) {
+                    answer.style.display = "block";
+                }
+            });
+        });
+    </script>
 </body>
 </html>

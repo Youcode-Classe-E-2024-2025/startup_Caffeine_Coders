@@ -45,7 +45,7 @@ body {
     width: 734.71px;
     padding: 20px 30px;
     border-bottom: solid black 1px;
-    /* display: none; */
+    display: none;
 }
 
 .div-container {
@@ -71,6 +71,7 @@ body {
     fill: #000000;
     width: 21px;
 }
+
                             /* section 3 */
 
 .image-contact {
