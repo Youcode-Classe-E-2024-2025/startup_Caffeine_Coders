@@ -69,10 +69,12 @@ function fetchProducts() {
      event.preventDefault();
     const Sname=searchContent.value;
     console.log('Input value:', Sname);
-    const Sproduct = list.find(item => item.name == Sname); 
+    const Sproduct = list.filter(
+      item =>  item.name.toLowerCase().includes(Sname.toLowerCase()) || item.desc.toLowerCase().includes(Sname.toLowerCase())
+    ); 
     console.log(Sproduct);
     
-    displayProducts([Sproduct]);
+    displayProducts(Sproduct);
  }
 
 // filter By product type and price 
