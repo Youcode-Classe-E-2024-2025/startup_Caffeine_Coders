@@ -320,13 +320,14 @@ header nav a:hover{
 }
 
 body {
-    margin: 0;
+
+    margin: 0px;
     background-color: #E3D8CC;
 }
 
 
 .image-contact {
-    height: 940px;
+    height: 1000px;
     /* background-image: url(../../images/contact.png);
     background-size: cover; */
     margin-top: 50px;
@@ -334,9 +335,11 @@ body {
 }
 
 .contact {
-    font-size: 90px;
-    color: white;
+    font-size: 80px;
+    color: #795757;
     text-align: center;
+    background-color: #E3D8CC;
+    padding: 40px;
 }
 
 .infos {
