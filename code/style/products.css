@@ -74,7 +74,6 @@ main .Filter_searchBar{
     /* background-color: aliceblue; */
     margin: auto;
     margin-bottom: 20px;
-    
     width: 85%;
     height: 220px;
     display: flex;
@@ -101,7 +100,7 @@ main .Filter_searchBar .filter > *{
 main .Filter_searchBar .filter button{
     background-color: var(--brown);
     border: solid 1px #0a0a0a;
-
+    
 }
 main .Filter_searchBar .filter :last-child{
    width: 90px;
@@ -217,9 +216,78 @@ main .Filter_searchBar .filter select .optionStyle{
 
 
 
+ /* burger-icon */
+ @media  (max-width:600px){
+    body{
+        background-color: rgb(4, 0, 255);
 
+    }
+    /* #burgerIconId #svgdisplay{
+        display: none;
+    } */
+    #navLinks{
+        display: none;
+    }
+    
+    .Filter_searchBar {
 
+     display: block;
+     flex-direction: column;
+     padding-bottom: 30px;
 
+    }
+    main .Filter_searchBar .filter {
+        width: 100%;
+        gap: 5%;
+    }
+    main .Filter_searchBar .filter >* {
+        padding: 10px 5px;
+    }
+
+    main .pageTitle {
+        height: 135px;
+    }
+    .font-pagesTitle{
+        
+        font-size: 5.6rem; 
+        
+    }
+    main .productsDisplay{
+        padding-left: 30px;
+        gap: 90px;
+    }
+    main .productsDisplay .ProductCard .ProductCardContent button {
+        height: 24px;
+        width: 73px;
+        border: none;
+        border-radius: 44px;
+        
+        position: absolute;
+        margin-bottom: 8px;
+       
+        box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.3);
+    }
+    main .productsDisplay .ProductCard {
+        height: 210px; width: 145px;
+    }
+    main .productsDisplay .ProductCard .ProductCardContent img { width: 131px; height: 128px; object-fit: cover; }
+    .productFont { font-size: 12px;  }
+    .productFont {  font-size: 11px;  }
+    button { height: 24PX; width: 73px;   bottom: -12px; }
+    main .productsDisplay .ProductCard .ProductCardContent { height: 100%; width: 100%;    border-radius: 5px 5px 50px 50px; padding: 10px; display: flex; flex-direction: column; align-items: center; }
+    main .productsDisplay .ProductCard .ProductCardContent button {  font-size: 0.9rem; }
+    main .productsDisplay .ProductCard .ProductCardContent .cardDescription { line-height: 10px; text-align: center; }
+    
+}
+
+ @media  (max-width:400px){
+    body{
+        background-color: rgb(4, 0, 255);
+
+    }
+    
+    
+}
 
 
 
