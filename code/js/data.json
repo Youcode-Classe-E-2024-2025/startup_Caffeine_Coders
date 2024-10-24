@@ -1,0 +1,22 @@
+[
+    { "desc" :"machine","id": 1, "name": "Product 1", "img": "../../images/productImg1.png", "price": 29.99 },
+    { "desc" :"object","id": 2, "name": "Product 2", "img": "../../images/productImg1.png", "price": 12.99 },
+    { "desc" :"machine","id": 3, "name": "Product 3", "img": "../../images/productImg1.png", "price": 500.99 },
+    { "desc" :"machine","id": 4, "name": "Product 4", "img": "../../images/productImg1.png", "price": 980.99 },
+    { "desc" :"machine","id": 5, "name": "Product 5", "img": "../../images/productImg1.png", "price": 15.99 },
+    { "desc" :"machine","id": 6, "name": "Product 6", "img": "../../images/productImg1.png", "price": 25.99 },
+    { "desc" :"machine","id": 7, "name": "Product 7", "img": "../../images/productImg1.png", "price": 35.99 },
+    { "desc" :"machine","id": 8, "name": "Product 8", "img": "../../images/productImg1.png", "price": 45.99 },
+    { "desc" :"machine","id": 9, "name": "Product 9", "img": "../../images/productImg1.png", "price": 55.99 },
+    { "desc" :"machine","id": 10, "name": "Product 10", "img": "../../images/productImg1.png", "price": 65.99 },
+    { "desc" :"machine","id": 11, "name": "Product 11", "img": "../../images/productImg1.png", "price": 75.99 },
+    { "desc" :"test","id": 12, "name": "Product 12", "img": "../../images/productImg1.png", "price": 85.99 },
+    { "desc" :"machine","id": 13, "name": "Product 13", "img": "../../images/productImg1.png", "price": 95.99 },
+    { "desc" :"machine","id": 14, "name": "Product 14", "img": "../../images/productImg1.png", "price": 105.99 },
+    { "desc" :"machine","id": 15, "name": "Product 15", "img": "../../images/productImg1.png", "price": 115.99 },
+    { "desc" :"machine","id": 16, "name": "Product 16", "img": "../../images/productImg1.png", "price": 125.99 },
+    { "desc" :"machine","id": 17, "name": "Product 17", "img": "../../images/productImg1.png", "price": 135.99 },
+    { "desc" :"machine","id": 18, "name": "Product 18", "img": "../../images/productImg1.png", "price": 145.99 },
+    { "desc" :"machine","id": 19, "name": "Product 19", "img": "../../images/productImg1.png", "price": 155.99 },
+    { "desc" :"machine","id": 20, "name": "Product 20", "img": "../../images/productImg1.png", "price": 185.99 }
+]
