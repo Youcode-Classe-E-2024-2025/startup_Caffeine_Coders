@@ -91,6 +91,7 @@ header nav a:hover{
 
 }
 
+/* <<<<<<< HEAD */
 
 .about-us-container h2 {
     font-size: 70px;
@@ -233,6 +234,7 @@ header nav a:hover{
     
     /* margin-top: 0; */
 }
+/* <<<<<<< HEAD */
 
 /* __________________________ carousel____________________ */
 .product h2{
@@ -304,3 +306,137 @@ header nav a:hover{
     bottom: -35px;
 }
 
+/* ======= */
+/* ======= */
+                       /* contact us page  */
+
+@import url('https://fonts.googleapis.com/css2?family=Sniglet:wght@400;800&display=swap');
+
+* {
+    font-family: "Sniglet", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    background-color: #E3D8CC;
+}
+
+
+.image-contact {
+    height: 940px;
+    /* background-image: url(../../images/contact.png);
+    background-size: cover; */
+    margin-top: 50px;
+    background-color: #664343 ;
+}
+
+.contact {
+    font-size: 90px;
+    color: white;
+    text-align: center;
+}
+
+.infos {
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+
+.centralisation {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+
+.input1{
+    height: 74.97px;
+    display: flex;
+    flex-direction: row;
+    gap: 51px;
+    margin: 28px;
+    
+}
+
+.input1 input{
+    width: 262px;
+    border-radius: 11px;
+    border: none;
+    font-size: 30px;
+    outline: none;
+}
+
+.input2 input{
+    width: 582px;
+    height: 74.97px;
+    margin-bottom: 20px;
+    border-radius: 11px;
+    border: none;
+    font-size: 30px;
+    outline: none;
+}
+
+.input3 input{
+    height: 74.97px;
+    width: 582px;
+    margin-bottom: 20px;
+    border-radius: 11px;
+    border: none;
+    font-size: 30px;
+    outline: none;
+}
+
+.input4 input{
+    height: 192.91px;
+    width: 582px;
+    border-radius: 11px;
+    border: none;
+    font-size: 30px;
+    outline: none;
+    margin-bottom: 20px;
+}
+
+.input5 input{
+    height: 66px;
+    width: 223px;
+    /* margin-top: 28px; */
+    border-radius: 11px;
+    border: none;
+    font-size: 30px;
+    outline: none;
+}
+
+.input1 input::placeholder{
+    font-size: 25px;
+    padding-left: 70px;
+ 
+
+}
+
+.input2 input::placeholder {
+    font-size: 25px;
+    padding-left: 190px;
+}
+
+.input3 input::placeholder {
+    font-size: 25px;
+    padding-left: 170px;
+}
+
+.input4 input::placeholder {
+    font-size: 25px;
+    padding-left: 100px;
+}
+.input5 input{
+    font-size: 25px;
+    border: solid;
+    background-color: #795757;
+    color: white;
+}      
+/* >>>>>>> ajout_js_faq */
+/* >>>>>>> 5078ef4c659427917c4a795370d0bfa8aedf8a55 */
