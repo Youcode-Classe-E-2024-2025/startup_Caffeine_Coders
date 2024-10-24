@@ -57,10 +57,37 @@ function fetchProducts() {
     localStorage.setItem('selectedProductId', id); 
 }
   fetchProducts();
-  
-//  const searchContent = document.getElementById('search_input');
-//  function getByName(){
-//     const name=searchContent.value;
-//     console.log('Input value:', inputValue);
-//  }
+
+
+
+  // Get by name  
+
+
+
+ const searchContent = document.getElementById('search_input');
+ function getByName(event){
+     event.preventDefault();
+    const Sname=searchContent.value;
+    console.log('Input value:', Sname);
+    const Sproduct = list.find(item => item.name == Sname); 
+    console.log(Sproduct);
+    
+    displayProducts([Sproduct]);
+ }
+
+// filter By product type and price 
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
 
