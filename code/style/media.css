@@ -63,6 +63,26 @@
         width: 100%;
     }
      /* product page end */
+      /* FAQ page start */
+     .div-container > div{
+        width:95vw;
+    
+    }
+    .centralisation  {
+        width: 90vw;
+    
+    }
+    .input1{
+        gap: 10px;
+    }
+
+.image-faq{
+    height: 618px;
+    background-image: url(../../images/faq.png);
+    background-size: cover;
+   
+}
+ /* FAQ page end */
 }
 /* phone (blue) */
 
@@ -109,8 +129,15 @@ gap: 10px;
         grid-row: 4/-1;
       }
        /* product page end */
-      
+         /* FAQ page start */
+       .faq-title {
+        font-size: 3rem; 
+    }
 
-
+    .questions-style, .inswers-style {
+        font-size: 1.6rem;
+        width: 100%; 
+    }
+  /* FAQ page end */
 
 }
