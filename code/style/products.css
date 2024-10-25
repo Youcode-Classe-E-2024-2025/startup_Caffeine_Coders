@@ -311,6 +311,14 @@ main .Filter_searchBar .filter select .optionStyle{
         line-height: 10px;
          text-align: center; 
         }
+        .burger-icon{
+            display: block;
+            height: fit-content;
+            width: fit-content;
+        }
+        nav{
+            display: none;
+        }
     
 }
 
