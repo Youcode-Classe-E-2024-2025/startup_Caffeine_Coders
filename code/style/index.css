@@ -285,6 +285,7 @@ header{
 
 .product-container{
     display: grid;
+    max-width: 1180px;
     grid-template-columns: repeat(6, 1fr); 
     /* column-gap: 0px; */
     scrollbar-width: none; 
@@ -295,6 +296,7 @@ header{
 .product-card{
     position: relative;
     background-color: rgba(255, 249, 241, 1) ;
+    width: 28rem;
     border-bottom-right-radius: 4.8rem;
     border-bottom-left-radius: 4.8rem;
     display: flex;
@@ -307,7 +309,11 @@ header{
 .product-card:hover{
     transform: scale(1.1);
 }
+.product-card img{
+    width: 100%;
+    object-fit: cover;
 
+}
 .product-card h3 {
     /* font-size: 2.5rem;
     color: #603809;
@@ -334,6 +340,7 @@ header{
     background-color: #f9c06a;
     padding: 1rem;
     font-family:"Playfair Display";
+    font-size: 1.6rem;
     /* margin-left:9rem; */
     /* position: absolute; */
     margin-bottom: -3.5rem;
@@ -518,9 +525,12 @@ justify-content: center;
     /* .burger-icon{
         display: block;
     } */
-    html{
+    /* html{
         font-size: 7px;
-    }
+    } */
+     /* .product-card{
+        width: 150px;
+     } */
     /* img {
         max-width: 100%;
         height: auto;
