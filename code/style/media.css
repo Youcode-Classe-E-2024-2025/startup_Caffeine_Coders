@@ -6,26 +6,111 @@
 
 /* large screen 1280 and up  */
 @media  (min-width:1280px){
-    body{
-        background-color: aqua;
-    }
+  
 }
-@media  (max-width:1280px){
-    body{
-        background-color: aqua;
+
+@media  (max-width:1100px){
+    html{
+        font-size: 9px;
+        
     }
+  
+ /* product page start */
+    .product-detail {
+        width: 95vw;
+        padding: 1rem 3rem 2rem 1rem;
+        gap: 2rem;
+      
+    }
+     /* product page end */
 }
+
 /* tablet (green) */
 @media  (max-width:800px){
-    body{
-        background-color: rgb(21, 255, 0);
+    .burger-icon{
+        display: block;
+    }
+    html{
+        font-size: 7px;
     }
     
+    nav.hidden{
+        display: none;
+    }
+    main .pageTitle{
+    height: 150px;
+    }
+     /* product page start */
+    .product-detail {
+        width: 98vw;
+        padding: 1rem 1rem 2rem 1rem;
+        grid-template-columns: 5fr 6fr;
+        gap: 2rem;
+        height: 300px;
+
+    }
+    .detail h2{
+        font-size: 5rem;
+    }
+    
+    /* .product-detail .detail-left {
+
+    } */
+    .product-detail .detail-left img {
+        border-radius: 1.6rem;
+        /* object-fit: cover; */
+    height: 230px;
+        width: 100%;
+    }
+     /* product page end */
 }
 /* phone (blue) */
 
 @media  (max-width:400px){
-    body{
-        background-color: rgb(4, 0, 255);
+    html{
+        font-size: 5px;
     }
+    /* product page start */
+    .product-detail {
+        grid-template-columns: 1fr;
+        height: fit-content;
+    }
+    .product-detail .detail-left {
+gap: 10px;
+    }
+    .product-detail .detail-left img{
+        height: 200px;
+            }
+    .product-detail .detail-left .add-to-cart{
+        width: 80%;
+    }
+    .product-detail .detail {
+       padding: 10px 20px;
+      }
+    .product-detail .detail h2 {
+        font-size: 7rem;
+        grid-column: 1/-1;
+        grid-row: 1;
+      }
+    .product-detail .detail .price {
+        grid-column: 1/3;
+        grid-row: 2;
+      }
+      .product-detail .detail .stock-status {
+        grid-column: 3/-1;
+        grid-row: 2;
+      }
+      .product-detail .detail .count-items {
+        /* grid-column: 1/-1; */
+        grid-row: 3;
+      }
+      .product-detail .detail .desc {
+        /* grid-column: 1/-1; */
+        grid-row: 4/-1;
+      }
+       /* product page end */
+      
+
+
+
 }

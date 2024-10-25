@@ -43,12 +43,13 @@ header{
 
 
 header nav {
-    width: 50%;
+    /* width: 50%; */
     height: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-right: 3%;
+    gap: 30px;
+    /* margin-right: 3%; */
 
 
 
@@ -63,7 +64,9 @@ header nav > a{
 }
 
 .logo img {
-    width: auto;
+    padding: 5px;
+    width: 80px;
+    object-fit: cover;
     height: 80px;
 }
 .nav-icons div svg{
@@ -98,12 +101,14 @@ font-size: 2rem;
     border: 1px solid var(--dark);
     /* transform: scale(1.02); */
 }
+
 .burger-icon{
+    display: none;
     height: fit-content;
     width: fit-content;
 }
 .burger-icon:hover svg{
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 /* .rotate-90-burger{
     transform: rotate(90deg);
@@ -118,19 +123,95 @@ font-size: 2rem;
 }
 
 .burger-icon svg {
-    transition: transform 1s;
+    transition: transform .3s;
     
     width:27px ;
     height:27px;
     fill: #FFF;
   }
 /* burger menu end */
+/* footer start */
+footer{
+    padding: 50px 20px;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4rem;
+    align-items: center;
+    margin-top: 30px;
+    background-color: var(--fort-brown);
+    min-height: 200px;   
+}
+footer .ft-logo{
+    text-align: center;
+    font-size: 2.4rem;
+    color: var(--white);
+}
+footer .footer_links {
+    display :flex;
+    justify-content: center;
+    gap: 20px;
 
+}
+footer .footer_links a{
+text-decoration: none;
+color: var(--white);
+border-bottom: transparent 1px solid;
+}
+footer .footer_links a:hover{
+    transform: scale(1.2);
+    color: var(--soft-brown);
+/* border-bottom: #E3D8CC 1px solid; */
+
+}
+footer .footer-icons{
+    display: flex;
+    gap: 25px;
+
+}
+footer .footer-icons .ft-icon svg{
+    height: 30px;
+    fill: var(--white);
+}
+footer .footer-icons .ft-icon svg:hover{
+    transform: scale(1.1);
+    fill: var(--soft-brown);
+}
+/* footer search bar  */
+.inputContainer{
+    width: fit-content;
+    position: relative;
+    /* border: solid 3px #664343; */
+ }
+ footer .inputContainer svg{
+    height: 25px;
+    fill: var(--soft-brown);
+    position: absolute;
+    /* left: 328px; */
+    right: 15px;
+    /* margin: auto 0; */
+    top: 7px;
+    
+ }
+
+ #ft-search_input{
+    height: 35px;
+    width: 360px;
+    color: #E3D8CC;
+    border-radius: 18.5px;
+    outline: none;
+    border: solid 2px var(--soft-brown);
+    padding-left: 20px;
+    background-color: transparent;
+
+ }
+/* footer end */
 /*  */
 main{
     background-color: #E3D8CC;
     width: 100%;
-    height: 2000px;
+    /* height: 2000px; */
 }
 
 main .pageTitle{
