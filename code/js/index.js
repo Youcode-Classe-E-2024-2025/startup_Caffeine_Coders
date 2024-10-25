@@ -1,12 +1,12 @@
 const list = document.getElementById('product-containerX');
 
 function scrollRight() {
-    const scrollAmount = list.clientWidth;  // Scroll by the width of the visible container
+    const scrollAmount =381;        //list.clientWidth;  // Scroll by the width of the visible container
     list.scrollBy({ left: scrollAmount, behavior: 'smooth' });
 }
 
 function scrollLeftSlider() {
-    const scrollAmount = list.clientWidth*-1;  // Scroll by the width of the visible container
+    const scrollAmount =-381;// list.clientWidth*-1;  // Scroll by the width of the visible container
     list.scrollBy({ left: scrollAmount, behavior: 'smooth' });
 }
 

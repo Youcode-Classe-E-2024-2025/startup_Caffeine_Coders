@@ -256,23 +256,37 @@
     <script>
         
         const questions = document.querySelectorAll('.btn-fqa');
-    
+        const allAnswers = document.querySelectorAll('.inswers-style');
+
+        allAnswers.forEach(answer => {
+                    answer.style.display = 'none';  // masquer toutes les réponses
+                });
         //la repetetion de meme boucle sur tout les quetions
         questions.forEach(question => {
             question.addEventListener('click', () => {
             //    fermeture des autres reponse 
-                const allAnswers = document.querySelectorAll('.inswers-style');
-                allAnswers.forEach(answer => {
-                    answer.style.display = 'none';  // masquer toutes les réponses
-                });
-    
+                
+                const nextanswer = question.nextElementSibling;
+                if(nextanswer.style.display !== 'none'){
+                    
+                       nextanswer.style.display = 'none';
+
+                } 
+                else{
+                        allAnswers.forEach(answer => {
+                         answer.style.display = 'none';  // masquer toutes les réponses
+                          });
+                       
+                         nextanswer.style.display = "block";
+
+               }
                 // selection de la reponse du question 
-                const answer = question.nextElementSibling;
-    
+                
                 // l'affichage du reponse si il est masquer 
-                if (answer.style.display === "none" ) {
-                    answer.style.display = "block";
-                }
+                // if (nextanswer.style.display === "none" ) {
+                    
+                // }
+                
             });
         });
     </script>

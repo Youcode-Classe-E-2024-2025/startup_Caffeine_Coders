@@ -13,6 +13,28 @@
         transform: rotate(0);
     }
 }
+@keyframes popup {
+    0% {
+        opacity: 0;
+        transform: scale(0); 
+    }
+    50% {
+        opacity: 1;
+        transform: scale(1.2); 
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1); 
+    }
+}
+
+.title {
+    font-size: 3em;
+    opacity: 0; 
+    transform: scale(0); 
+    animation: popup 2s forwards;
+    transition: color 0.3s ease-in-out;
+}
 
 
 
@@ -65,7 +87,7 @@ header{
 .welcome-video video  {
    width: 100%;
    object-fit: cover;
-   height: 681px; 
+   height: 750px; 
    /* height: 900px;  */
 }
 .welcome-video{
@@ -77,7 +99,7 @@ header{
     right: 100px;
     z-index: 2;
     color: azure;
-    font-size: 70px;
+    font-size: 7rem;
 
 }
 
@@ -86,10 +108,10 @@ header{
 .about-us-container h2 {
     margin-top: 30rem;
     margin-bottom: 10rem;
-    font-size: 70px;
+    font-size: 7rem;
     color: #795757;
     text-align: center;
-    
+    left: 50px;
     /* margin: 0; */
 }
 
@@ -99,6 +121,7 @@ header{
     height: 80rem;
     background-color: rgba(255, 249, 241, 1);
     border: 1.5px solid  #fbb040c0;
+    
 }
 
 
@@ -125,7 +148,6 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 
@@ -145,7 +167,7 @@ header{
 .content > p {
     /* position: absolute;
     top: 70rem; */
-    font-size: 22px;
+    font-size: 2.2rem;
     /* left: 70px; */
     /* right: 70px; */
     /* margin: 30px; */
@@ -163,7 +185,7 @@ header{
     /* left: 40rem; */
     /* top: 95rem; */
 
-    font-size: 30px;
+    font-size: 3rem;
     margin: 0;
     padding: 0;
     color: rgb(80, 25, 7);
@@ -175,16 +197,17 @@ header{
 }
 .second-part {
     margin-bottom: 20rem;
+    height: auto;
 }
 .second-part h2{
      
-    font-size: 70px;
+    font-size: 7rem;
     color: #795757;
     text-align: center;
     margin-top: 0;
 }
 .second-part h4{
- font-size: 30px;
+ font-size: 3rem;
  text-align: center;
  color: #461010;
  margin-bottom: 10rem;
@@ -198,7 +221,8 @@ header{
     justify-content: center;
     gap: 50px;
      width: 100%;
-    height: 45rem;
+     flex-wrap: wrap;
+    height: auto;
     background-color: rgba(255, 249, 241, 1);
    
 }
@@ -221,12 +245,12 @@ header{
 }
 
 .item h5{
-    font-size:23px;
+    font-size:2.3rem;
     color: #b64c05;
 }
 
 .item p{
-    font-size: 15px;
+    font-size: 1.5rem;
     color: #9b4003;
 }
     
@@ -240,7 +264,7 @@ header{
 
 /* __________________________ carousel____________________ */
 .product h2,h2{
-    font-size: 70px;
+    font-size: 7rem;
     color: #795757;
     text-align: center;
     margin-top: 200px;
@@ -262,6 +286,7 @@ header{
 
 .product-container{
     display: grid;
+    max-width: 1180px;
     grid-template-columns: repeat(6, 1fr); 
     /* column-gap: 0px; */
     scrollbar-width: none; 
@@ -272,19 +297,24 @@ header{
 .product-card{
     position: relative;
     background-color: rgba(255, 249, 241, 1) ;
-    border-bottom-right-radius: 48px;
-    border-bottom-left-radius: 48px;
+    width: 28rem;
+    border-bottom-right-radius: 4.8rem;
+    border-bottom-left-radius: 4.8rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 50px;
-    padding-bottom: 25px;
+    margin: 5rem;
+    padding-bottom: 2.5rem;
     transition: all .2s;
 }
 .product-card:hover{
     transform: scale(1.1);
 }
+.product-card img{
+    width: 100%;
+    object-fit: cover;
 
+}
 .product-card h3 {
     font-size: 2.5rem;
     color: #603809;
@@ -296,7 +326,7 @@ header{
     font-size: 1.25rem;
     color: #1e1e1e;
     font-family:"Playfair Display";
-   margin: 10px;
+   margin: 1rem;
 }
 .product-card p {
     font-size: 1.9rem;
@@ -306,63 +336,35 @@ header{
 }
 
 .btn-product {
-    border-radius: 24px;
+    border-radius: 2.4rem;
     border-style: none;
     background-color: #f9c06a;
-    padding: 10px;
+    padding: 1rem;
     font-family:"Playfair Display";
+    font-size: 1.6rem;
     /* margin-left:9rem; */
-    position: absolute;
-    bottom: -25px;
-    padding-left: 30px;
-    padding-right: 30px;
+    /* position: absolute; */
+    margin-bottom: -3.5rem;
+    /* top: 50rem; */
+    padding-left: 3rem;
+    padding-right: 3rem;
 
 }
-
-/* contact us */
-.image-faq{
-    height: 618px;
-    background-image: url(../../images/faq.png);
-    background-size: cover;
-   
+.btn-product:hover{
+    background-color: #c58000;
 }
 
-.faq-title{
-    padding: 0;
-    margin-left: 4rem;
-    color: white;
-    font-size: 6rem;
+/* ======= */
+/* ======= */
+                       /* contact us page  */
 
-}
-                            /* section 2 */
-.questions-style {
-    font-size: 2.3rem;
-    background-color: #FAF7F0;
-    /* width: 734.71px; */
-    width: 100%;
-    padding: 20px 30px;
-    border-bottom: solid black 1px;
-    display: flex; justify-content: space-between;
-}
+/* @import url('https://fonts.googleapis.com/css2?family=Sniglet:wght@400;800&display=swap');
 
-.inswers-style {
-    font-size: 1.8rem;
-    color: #525252;
-    background-color: #FAF7F0;
-    /* width: 734.71px; */
-    width: 100%;
-    padding: 20px 30px;
-    border-bottom: solid black 1px;
-    display: none;
-}
-
-.div-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 93px;
-    margin-bottom: 166px;
+* {
+    font-family: "Sniglet", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
 }
 .div-container > div{
     width: 734.71px;
@@ -507,5 +509,68 @@ justify-content: center;
     border: solid;
     background-color: #795757;
     color: white;
+}      
+/* >>>>>>> ajout_js_faq */
+/* >>>>>>> 5078ef4c659427917c4a795370d0bfa8aedf8a55 */
+
+@media  (max-width:800px){
+    /* .burger-icon{
+        display: block;
+    } */
+    /* html{
+        font-size: 7px;
+    } */
+     /* .product-card{
+        width: 150px;
+     } */
+    /* img {
+        max-width: 100%;
+        height: auto;
+      } */
+      .flex{
+        width: 100%;
+        padding: 0 30px;
+    }
+    /* .flex .drinking , .cup{
+     height: 100px;
+    }  */
+
+
+    .content > p { 
+        font-size: 12px; 
+         padding: 10px 30px; }
+    .content { 
+         width: 100%;
+          height: fit-content; 
+        }
+   
+
+    .flex .drinking img{
+        height: 100px;
+        object-fit: cover;
+       } 
+       .flex .cup img{
+        height: 100px;
+        object-fit: cover;
+       } 
+       .h2{
+         font-size: 40%;
+       }
+    }
     
-}
+    @media  (max-width:400px){
+        /* .burger-icon{
+            display: block;
+        } */
+        html{
+            font-size: 5px;
+        }
+        /* img {
+            max-width: 100%;
+            height: auto;
+          } */
+          .flex{
+            width: 100%;
+            padding: 0 50px;
+        }
+    }
