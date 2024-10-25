@@ -197,6 +197,7 @@ header{
 .second-part {
     margin-bottom: 20rem;
     height: auto;
+    
 }
 .second-part h2{
      
@@ -223,6 +224,7 @@ header{
     flex-wrap: wrap;
     height: auto;
     background-color: rgba(255, 249, 241, 1);
+    padding: auto;
    
 }
 .box{
@@ -256,6 +258,7 @@ header{
 .second-part{
     background-color:rgba(255, 249, 241, 1) ;
     border: 1.5px solid  #fbb040c0;
+    padding-bottom:12.3rem ;
     
     /* margin-top: 0; */
 }
