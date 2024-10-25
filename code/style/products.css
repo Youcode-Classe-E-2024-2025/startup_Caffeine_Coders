@@ -41,10 +41,10 @@ header nav a{
 
 
 main{
-    /* background-color: #E3D8CC; */
+    
     width: 100%;
     height: 2000px;
-
+    background-color: #E3D8CC;
     margin-bottom: 300px;
 }
 
@@ -81,7 +81,7 @@ main .Filter_searchBar{
     align-items: center;
 }
 main .Filter_searchBar .filter {
-    background-color: #E3D8CC;
+    /* background-color: #E3D8CC; */
     
     display: flex;
     justify-content: space-between;
@@ -136,19 +136,20 @@ main .Filter_searchBar .filter select .optionStyle{
     outline: none;
     border: solid 1px #795757;
     padding-left: 20px;
-    background-color: #E3D8CC;
+    /* background-color: #E3D8CC; */
 
  }
  main .productsDisplay{
-    background-color: #E3D8CC;
+    /* background-color: #E3D8CC; */
     height: fit-content;
     width: 90%;
     margin: auto;
     display: flex;
   padding-bottom: 100px;
     flex-wrap: wrap;
-    row-gap: 100px;
-    column-gap: 30px;
+    /* row-gap: 100px; */
+    /* column-gap: 30px; */
+    justify-content: space-around;
 
  }
 
@@ -157,7 +158,7 @@ main .Filter_searchBar .filter select .optionStyle{
     height: 365px;
     width: 261px;
     position: relative;
-    /* margin-bottom: 50px; */
+    margin-bottom: 100px;
     /* background-color: #E3D8CC; */
        
  }
@@ -262,7 +263,7 @@ main .Filter_searchBar .filter select .optionStyle{
     }
     main .productsDisplay{
        
-        padding-left: 10px;
+        
         gap: 24px;
     }
     main .productsDisplay .ProductCard .ProductCardContent button {
@@ -276,7 +277,8 @@ main .Filter_searchBar .filter select .optionStyle{
         box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.3);
     }
     main .productsDisplay .ProductCard {
-        height: 210px; width: 145px;
+        height: 210px;
+         width: 145px;
         margin-bottom: 20px;
     }
     main .productsDisplay .ProductCard .ProductCardContent img {
