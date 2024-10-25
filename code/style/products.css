@@ -78,6 +78,7 @@ main .Filter_searchBar{
     height: 220px;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     align-items: center;
 }
 main .Filter_searchBar .filter {
@@ -319,19 +320,130 @@ main .Filter_searchBar .filter select .optionStyle{
         nav{
             display: none;
         }
-    
+        main .Filter_searchBar .filter { 
+            
+             
+               width: 100%;
+             }
+        main .Filter_searchBar { 
+                 
+                
+                 height: fit-content; 
+                 gap: 30px;
+                 
+                 flex-wrap: wrap;
+                }
+                
 }
+ /* burger-icon */
+ @media  (max-width:900px){
 
- @media  (max-width:400px){
-    body{
+    
+    .Filter_searchBar {
+      width: 100%;
+     display: block;
+     flex-direction: column;
+     padding-bottom: 30px;
+
+    }
+    main .Filter_searchBar .filter {
+        width: 100%;
+        gap: 2%;
+        margin-left: -40px;
+    }
+    main .Filter_searchBar .filter >* {
+        
+        padding: 10px 5px;
+        font-size: 12px;
+    }
+    main .Filter_searchBar .filter button{
+        height: 30px;
+        width: 100px;
+    }
+
+    main .pageTitle {
+        height: 115px;
+    }
+    .font-pagesTitle{
+        
+        font-size: 5.6rem; 
         
     }
+    main .productsDisplay{
+       
+        
+        gap: 24px;
+    }
+    main .productsDisplay .ProductCard .ProductCardContent button {
+        height: 24px;
+        width: 72px;
+        border: none;
+        border-radius: 44px;
+        position: absolute;
+        margin-bottom: 8px;
+        font-size: 9px;
+        box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.3);
+    }
+    main .productsDisplay .ProductCard {
+        height: 210px;
+         width: 145px;
+        margin-bottom: 20px;
+    }
+    main .productsDisplay .ProductCard .ProductCardContent img {
+         width: 131px; height: 128px; 
+         object-fit: cover; 
+        }
+
+    .productFont { 
+        font-size: 12px; 
+     }
+
     
+    button {
+         height: 24PX; width: 73px;  
+          bottom: -12px;
+         }
+    main .productsDisplay .ProductCard .ProductCardContent { 
+        height: 100%; width: 100%;    
+        border-radius: 5px 5px 50px 50px;
+         padding: 10px; 
+         display: flex; 
+         flex-direction: column;
+          align-items: center; 
+        }
+    
+    main .productsDisplay .ProductCard .ProductCardContent .cardDescription { 
+        line-height: 10px;
+         text-align: center; 
+        }
+        
+        nav{
+            display: none;
+        }
+        main .Filter_searchBar .filter { 
+            
+             
+               width: 100%;
+             }
+        main .Filter_searchBar { 
+                 
+                
+                 height: fit-content; 
+                 gap: 30px;
+                 
+                 flex-wrap: wrap;
+                }
     
 }
 
 
 
+/* @media (max-width: 900px) and (min-width: 801px) {
+    .burger-menu {
+        display: none;
+    }
+}
+ */
 
 
 
