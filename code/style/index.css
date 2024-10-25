@@ -296,13 +296,13 @@ header{
 .product-card{
     position: relative;
     background-color: rgba(255, 249, 241, 1) ;
-    border-bottom-right-radius: 48px;
-    border-bottom-left-radius: 48px;
+    border-bottom-right-radius: 4.8rem;
+    border-bottom-left-radius: 4.8rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 50px;
-    padding-bottom: 25px;
+    margin: 5rem;
+    padding-bottom: 2.5rem;
     transition: all .2s;
 }
 .product-card:hover{
@@ -320,7 +320,7 @@ header{
     font-size: 1.25rem;
     color: #1e1e1e;
     font-family:"Playfair Display";
-   margin: 10px;
+   margin: 1rem;
 }
 .product-card p {
     font-size: 1.9rem;
@@ -330,17 +330,17 @@ header{
 }
 
 .btn-product {
-    border-radius: 24px;
+    border-radius: 2.4rem;
     border-style: none;
     background-color: #f9c06a;
-    padding: 10px;
+    padding: 1rem;
     font-family:"Playfair Display";
     /* margin-left:9rem; */
     /* position: absolute; */
-    margin-bottom: -35px;
+    margin-bottom: -3.5rem;
     /* top: 50rem; */
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 3rem;
+    padding-right: 3rem;
 
 }
 .btn-product:hover{
