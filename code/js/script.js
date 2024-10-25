@@ -111,7 +111,7 @@ const selectbyPrice = document.getElementsByClassName('price');
 // Get the value of the selected option
 const selectedValue = selectbytype[0].value; 
 const priceSort=selectbyPrice[0].value;
-var listByProductType=[];
+var listByProductType=retunrList;
 console.log('Selected value:', priceSort);
      if(selectedValue!==''){
        console.log(retunrList);
