@@ -1,97 +1,97 @@
 [
   {
     "id": 1,
-    "name": "Product 1",
-    "type_of_product": "machine",
+    "name": "Coffee Machine",
+    "type_of_product": "Coffee Machine",
     "desc": "description of Product 1 description of Product 1 description of Product 1 description of Product 1 description of Product 1 description of Product 1 description of Product 1 description of Product 1 ",
     "stock_status": "54 in stock",
     "img": "../../images/machine1.jpg",
-    "price": 29.99
+    "price": 50000.00
   },
   {
     "id": 2,
-    "name": "Product 2",
-    "type_of_product": "machine",
+    "name": "Coffee Machine",
+    "type_of_product": "Coffee machine",
     "desc": "description of Product 2 description of Product 2 description of Product 2 description of Product 2 description of Product 2 description of Product 2 description of Product 2 description of Product 2 ",
     "stock_status": "55 in stock",
     "img": "../../images/machine3.jpg",
-    "price": 12.99
+    "price": 30000.00
   },
   {
     "id": 3,
-    "name": "Product 3",
-    "type_of_product": "machine",
+    "name": "Smeg Hand Blender",
+    "type_of_product": "Coffee machine",
     "desc": "description of Product 3 description of Product 3 description of Product 3 description of Product 3 description of Product 3 description of Product 3 description of Product 3 description of Product 3 ",
     "stock_status": "40 in stock",
     "img": "../../images/machine4.jpg",
-    "price": 500.99
+    "price": 40000.00
   },
   {
     "id": 4,
-    "name": "Product 4",
-    "type_of_product": "machine",
+    "name": "Coffee Machine",
+    "type_of_product": "Coffee machine",
     "desc": "description of Product 4 description of Product 4 description of Product 4 description of Product 4 description of Product 4 description of Product 4 description of Product 4 description of Product 4 ",
     "stock_status": "13 in stock",
     "img": "../../images/machine5.jpg",
-    "price": 980.99
+    "price": 20999
   },
   {
     "id": 5,
-    "name": "Product 5",
+    "name": "Coffee Machine",
     "type_of_product": "drink",
     "desc": "description of Product 5 description of Product 5 description of Product 5 description of Product 5 description of Product 5 description of Product 5 description of Product 5 description of Product 5 ",
     "stock_status": "100 in stock",
     "img": "../../images/machine6.jpg",
-    "price": 15.99
+    "price": 60000.00
   },
   {
     "id": 6,
-    "name": "Product 6",
-    "type_of_product": "drink",
+    "name": " Coffe Mug ",
+    "type_of_product": "mug",
     "desc": "description of Product 6 description of Product 6 description of Product 6 description of Product 6 description of Product 6 description of Product 6 description of Product 6 description of Product 6 ",
     "stock_status": "45 in stock",
     "img": "../../images/tasse1.jpg",
-    "price": 25.99
+    "price": 150.25
   },
   {
     "id": 7,
-    "name": "Product 7",
-    "type_of_product": "drink",
+    "name": "Waters and Noble Mug",
+    "type_of_product": "mug",
     "desc": "description of Product 7 description of Product 7 description of Product 7 description of Product 7 description of Product 7 description of Product 7 description of Product 7 description of Product 7 ",
     "stock_status": "70 in stock",
     "img": "../../images/tasse2.jpg",
-    "price": 35.99
+    "price": 100.00
   },
   {
     "id": 8,
-    "name": "Product 8",
-    "type_of_product": "drink",
+    "name": "Plant lover Mug",
+    "type_of_product": "mug",
     "desc": "description of Product 8 description of Product 8 description of Product 8 description of Product 8 description of Product 8 description of Product 8 description of Product 8 description of Product 8 ",
     "stock_status": "10 in stock",
     "img": "../../images/tasse3.jpg",
-    "price": 1000.99
+    "price": 200.00
   },
   {
     "id": 9,
-    "name": "Product 9",
-    "type_of_product": "drink",
+    "name": "Small tea cup",
+    "type_of_product": "mug",
     "desc": "description of Product 9 description of Product 9 description of Product 9 description of Product 9 description of Product 9 description of Product 9 description of Product 9 description of Product 9 ",
     "stock_status": "3 in stock",
     "img": "../../images/tasse4.jpg",
-    "price": 55.99
+    "price": 250.99
   },
   {
     "id": 10,
-    "name": "Product 10",
-    "type_of_product": "drink",
+    "name": "Mug Life",
+    "type_of_product": "mug",
     "desc": "description of Product 10 description of Product 10 description of Product 10 description of Product 10 description of Product 10 description of Product 10 description of Product 10 description of Product 10 ",
     "stock_status": "out of stock",
     "img": "../../images/tasse5.jpg",
-    "price": 65.99
+    "price": 99.99
   },
   {
     "id": 11,
-    "name": "Product 11",
+    "name": "Creamy Hot Chocolate",
     "type_of_product": "drink",
     "desc": "description of Product 11 description of Product 11 description of Product 11 description of Product 11 description of Product 11 description of Product 11 description of Product 11 description of Product 11 ",
     "stock_status": "out of stock",
@@ -100,7 +100,7 @@
   },
   {
     "id": 12,
-    "name": "Product 12",
+    "name": "Upside Down latte",
     "type_of_product": "object",
     "desc": "description of Product 12 description of Product 12 description of Product 12 description of Product 12 description of Product 12 description of Product 12 description of Product 12 description of Product 12 ",
     "stock_status": "40 in stock",
@@ -109,7 +109,7 @@
   },
   {
     "id": 13,
-    "name": "Product 13",
+    "name": "Creamy Cappuccino",
     "type_of_product": "object",
     "desc": "description of Product 13 description of Product 13 description of Product 13 description of Product 13 description of Product 13 description of Product 13 description of Product 13 description of Product 13 ",
     "stock_status": "out of stock",
@@ -118,7 +118,7 @@
   },
   {
     "id": 14,
-    "name": "Product 14",
+    "name": "Mocha Coffee",
     "type_of_product": "object",
     "desc": "description of Product 14 description of Product 14 description of Product 14 description of Product 14 description of Product 14 description of Product 14 description of Product 14 description of Product 14 ",
     "stock_status": "98 in stock",
@@ -127,7 +127,7 @@
   },
   {
     "id": 15,
-    "name": "Product 15",
+    "name": "Pistachio Latte",
     "type_of_product": "object",
     "desc": "description of Product 15 description of Product 15 description of Product 15 description of Product 15 description of Product 15 description of Product 15 description of Product 15 description of Product 15 ",
     "stock_status": "20 in stock",
@@ -136,7 +136,7 @@
   },
   {
     "id": 16,
-    "name": "Product 16",
+    "name": "Glass Tumbler",
     "type_of_product": "object",
     "desc": "description of Product 16 description of Product 16 description of Product 16 description of Product 16 description of Product 16 description of Product 16 description of Product 16 description of Product 16 ",
     "stock_status": "8 in stock",
@@ -145,7 +145,7 @@
   },
   {
     "id": 17,
-    "name": "Product 17",
+    "name": "Daily Coffee bottle",
     "type_of_product": "object",
     "desc": "description of Product 17 description of Product 17 description of Product 17 description of Product 17 description of Product 17 description of Product 17 description of Product 17 description of Product 17 ",
     "stock_status": "40 in stock",
@@ -154,7 +154,7 @@
   },
   {
     "id": 18,
-    "name": "coaster 18",
+    "name": "Concrete Coasters",
     "type_of_product": "machine",
     "desc": "description of Product 18 description of Product 18 description of Product 18 description of Product 18 description of Product 18 description of Product 18 description of Product 18 description of Product 18 ",
     "stock_status": "out of stock",
@@ -163,7 +163,7 @@
   },
   {
     "id": 19,
-    "name": "coaster 19",
+    "name": "Wooden Cookie Coaster",
     "type_of_product": "machine",
     "desc": "description of Product 19 description of Product 19 description of Product 19 description of Product 19 description of Product 19 description of Product 19 description of Product 19 description of Product 19 ",
     "stock_status": "22 in stock",
@@ -172,7 +172,7 @@
   },
   {
     "id": 20,
-    "name": "Product 20",
+    "name": "Luxury Silver Coasters ",
     "type_of_product": "machine",
     "desc": "description of Product 20 description of Product 20 description of Product 20 description of Product 20 description of Product 20 description of Product 20 description of Product 20 description of Product 20 ",
     "stock_status": "30 in stock",
