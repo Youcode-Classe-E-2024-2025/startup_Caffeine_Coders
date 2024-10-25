@@ -14,7 +14,7 @@
 }
 
 .title {
-    font-size: 3em;
+    /* font-size: 3em; */
     opacity: 0; 
     transform: scale(0); 
     animation: popup 2s forwards;

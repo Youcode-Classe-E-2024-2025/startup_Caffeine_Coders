@@ -8,11 +8,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fustat:wght@200..800&family=Gabriela&family=Holtwood+One+SC&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
 :root{
     --font-roboto: "Roboto Flex", sans-serif;
     --font-titre: "Rouge Script", cursive;
     --font-inria: "Inria Serif", serif;
+    --font-playfair: "Playfair Display";
 }
 header nav a{
 
@@ -118,3 +120,101 @@ footer{
     font-weight: 400;
     font-style: normal;
 }
+
+/* ____________________________ home page fonts __________________________ */
+/* start */
+.welcome-video h1 {
+    color: azure;
+    font-size: 7rem;
+    font-weight:100;
+    font-family: var(--font-titre);
+
+}
+
+
+.about-us-container h2 {
+    font-size: 7rem;
+    color: #795757;
+    text-align: center;
+   }
+
+
+.content > p {
+    font-size: 2.2rem;
+    color: rgb(80, 25, 7);
+    font-family: "Roboto Flex", sans-serif;
+   }
+
+
+
+.Addicoffee > p{
+    font-size: 3rem;
+    color: rgb(80, 25, 7);
+    text-align: center;
+
+   }
+
+.second-part h2{
+    font-size: 7rem;
+    color: #795757;
+    text-align: center;
+}
+
+
+.second-part h4{
+ font-size: 3rem;
+ text-align: center;
+ color: #461010;
+}
+
+.item h5{
+    font-size:2.3rem;
+    color: #b64c05;
+}
+
+.item p{
+    font-size: 1.5rem;
+    color: #9b4003;
+}
+
+
+.product h2,h2{
+    font-size: 7rem;
+    color: #795757;
+    text-align: center;
+   }
+
+.product-section i{
+    font-size: 6rem;
+    color: #522504;
+}
+
+.product-card h3 {
+    font-size: 2.5rem;
+    color: #603809;
+    font-family: var(--font-playfair);
+    font-weight: bold;
+}
+
+.product-card h4 {
+    font-size: 1.25rem;
+    color: #1e1e1e;
+    font-family:var(--font-playfair);
+}
+
+.product-card p {
+    font-size: 1.9rem;
+    color: #603809;
+    font-family:var(--font-playfair);
+    
+}
+
+.btn-product {
+    font-family:var(--font-playfair);
+}
+
+
+
+
+/* end */
+/* ____________________________ home page fonts __________________________ */
