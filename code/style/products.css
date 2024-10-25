@@ -103,6 +103,10 @@ main .Filter_searchBar .filter button{
     border: solid 1px #0a0a0a;
     
 }
+
+
+
+
 main .Filter_searchBar .filter :last-child{
    width: 90px;
    padding-left: 0;
@@ -163,9 +167,13 @@ main .Filter_searchBar .filter select .optionStyle{
     width: 261px;
     position: relative;
     margin-bottom: 100px;
+    transition: all .2s;
     /* background-color: #E3D8CC; */
        
  }
+ .ProductCard:hover{
+    transform: scale(1.1);
+}
  
  main .productsDisplay .ProductCard .ProductCardContent{
 
