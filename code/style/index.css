@@ -330,6 +330,11 @@ header{
     font-family:"Playfair Display"; */
    margin: 1rem;
 }
+.product-card img{
+    width: 28rem;
+    height: 22.2rem;
+    object-fit: fill;
+}
 /* .product-card p {
     font-size: 1.9rem;
     color: #603809;
