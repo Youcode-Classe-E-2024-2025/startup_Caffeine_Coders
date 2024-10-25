@@ -1,0 +1,35 @@
+ @keyframes popup {
+    0% {
+        opacity: 0;
+        transform: scale(0); 
+    }
+    50% {
+        opacity: 1;
+        transform: scale(1.2); 
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1); 
+    }
+}
+
+.title {
+    font-size: 3em;
+    opacity: 0; 
+    transform: scale(0); 
+    animation: popup 2s forwards;
+    transition: color 0.3s ease-in-out;
+}
+
+
+/* .title:hover {
+    color: #7e3b04; 
+   
+} */
+#coffee:hover{
+    color: #7e3b04;
+}
+
+
+
+

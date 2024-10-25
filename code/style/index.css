@@ -13,6 +13,28 @@
         transform: rotate(0);
     }
 }
+@keyframes popup {
+    0% {
+        opacity: 0;
+        transform: scale(0); 
+    }
+    50% {
+        opacity: 1;
+        transform: scale(1.2); 
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1); 
+    }
+}
+
+.title {
+    font-size: 3em;
+    opacity: 0; 
+    transform: scale(0); 
+    animation: popup 2s forwards;
+    transition: color 0.3s ease-in-out;
+}
 
 
 
@@ -75,7 +97,7 @@ header nav a:hover{
 .welcome-video video  {
    width: 100%;
    object-fit: cover;
-   height: 681px; 
+   height: 750px; 
    /* height: 900px;  */
 }
 .welcome-video{
@@ -99,7 +121,7 @@ header nav a:hover{
     font-size: 70px;
     color: #795757;
     text-align: center;
-    
+    left: 50px;
     /* margin: 0; */
 }
 
@@ -109,6 +131,7 @@ header nav a:hover{
     height: 80rem;
     background-color: rgba(255, 249, 241, 1);
     border: 1.5px solid  #fbb040c0;
+    
 }
 
 
@@ -136,7 +159,11 @@ header nav a:hover{
     justify-content: space-between;
     align-items: center;
 
+
 }
+.flex .drinking , .cup{
+
+} 
 
 
  .quotes img{
@@ -185,6 +212,7 @@ header nav a:hover{
 }
 .second-part {
     margin-bottom: 20rem;
+    height: auto;
 }
 .second-part h2{
      
@@ -208,7 +236,8 @@ header nav a:hover{
     justify-content: center;
     gap: 50px;
      width: 100%;
-    height: 45rem;
+     flex-wrap: wrap;
+    height: auto;
     background-color: rgba(255, 249, 241, 1);
    
 }
@@ -322,11 +351,15 @@ header nav a:hover{
     padding: 10px;
     font-family:"Playfair Display";
     /* margin-left:9rem; */
-    position: absolute;
-    bottom: -25px;
+    /* position: absolute; */
+    margin-bottom: -35px;
+    /* top: 50rem; */
     padding-left: 30px;
     padding-right: 30px;
 
+}
+.btn-product:hover{
+    background-color: #c58000;
 }
 
 /* ======= */
@@ -466,3 +499,61 @@ body {
 }       */
 /* >>>>>>> ajout_js_faq */
 /* >>>>>>> 5078ef4c659427917c4a795370d0bfa8aedf8a55 */
+
+@media  (max-width:800px){
+    /* .burger-icon{
+        display: block;
+    } */
+    html{
+        font-size: 7px;
+    }
+    /* img {
+        max-width: 100%;
+        height: auto;
+      } */
+      .flex{
+        width: 100%;
+        padding: 0 30px;
+    }
+    /* .flex .drinking , .cup{
+     height: 100px;
+    }  */
+
+
+    .content > p { 
+        font-size: 12px; 
+         padding: 10px 30px; }
+    .content { 
+         width: 100%;
+          height: fit-content; 
+        }
+   
+
+    .flex .drinking img{
+        height: 100px;
+        object-fit: cover;
+       } 
+       .flex .cup img{
+        height: 100px;
+        object-fit: cover;
+       } 
+       .h2{
+         font-size: 40%;
+       }
+    }
+    
+    @media  (max-width:400px){
+        /* .burger-icon{
+            display: block;
+        } */
+        html{
+            font-size: 7px;
+        }
+        /* img {
+            max-width: 100%;
+            height: auto;
+          } */
+          .flex{
+            width: 100%;
+            padding: 0 50px;
+        }
