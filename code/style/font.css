@@ -112,3 +112,9 @@ font-weight: 300;
 }
 /* product details end  */
 /* ****************************************************************** */
+/* footer */
+footer{
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}

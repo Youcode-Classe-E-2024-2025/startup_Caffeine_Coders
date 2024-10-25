@@ -327,7 +327,7 @@ header nav a:hover{
 /* ======= */
                        /* contact us page  */
 
-@import url('https://fonts.googleapis.com/css2?family=Sniglet:wght@400;800&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Sniglet:wght@400;800&display=swap');
 
 * {
     font-family: "Sniglet", system-ui;
@@ -340,18 +340,18 @@ body {
 
     margin: 0px;
     background-color: #E3D8CC;
-}
+} */
 
 
-.image-contact {
-    height: 1000px;
+/* .image-contact { */
+    /* height: 1000px; */
     /* background-image: url(../../images/contact.png);
     background-size: cover; */
-    margin-top: 50px;
-    background-color: #664343 ;
-}
+    /* margin-top: 50px; */
+    /* background-color: #664343 ; */
+/* } */
 
-.contact {
+/* .contact {
     font-size: 80px;
     color: #795757;
     text-align: center;
@@ -363,8 +363,8 @@ body {
     font-size: 40px;
     color: white;
     text-align: center;
-}
-
+} */
+/* 
 .centralisation {
     display: flex;
     justify-content: center;
@@ -372,8 +372,8 @@ body {
     align-items: center;
     
 
-}
-
+} */
+/*  
 .input1{
     height: 74.97px;
     display: flex;
@@ -389,8 +389,8 @@ body {
     border: none;
     font-size: 30px;
     outline: none;
-}
-
+} */
+/* 
 .input2 input{
     width: 582px;
     height: 74.97px;
@@ -419,18 +419,18 @@ body {
     font-size: 30px;
     outline: none;
     margin-bottom: 20px;
-}
+} */
 
-.input5 input{
-    height: 66px;
-    width: 223px;
+/* .input5 input{ */
+    /* height: 66px;
+    width: 223px; */
     /* margin-top: 28px; */
-    border-radius: 11px;
+    /* border-radius: 11px;
     border: none;
     font-size: 30px;
-    outline: none;
-}
-
+    outline: none; */
+/* } */
+/* 
 .input1 input::placeholder{
     font-size: 25px;
     padding-left: 70px;
@@ -441,8 +441,8 @@ body {
 .input2 input::placeholder {
     font-size: 25px;
     padding-left: 190px;
-}
-
+} */
+/* 
 .input3 input::placeholder {
     font-size: 25px;
     padding-left: 170px;
@@ -451,12 +451,12 @@ body {
 .input4 input::placeholder {
     font-size: 25px;
     padding-left: 100px;
-}
-.input5 input{
+} */
+/* .input5 input{
     font-size: 25px;
     border: solid;
     background-color: #795757;
     color: white;
-}      
+}       */
 /* >>>>>>> ajout_js_faq */
 /* >>>>>>> 5078ef4c659427917c4a795370d0bfa8aedf8a55 */
