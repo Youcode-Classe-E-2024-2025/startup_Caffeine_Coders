@@ -205,12 +205,12 @@ justify-content: center;
 }
 
 @media  (max-width:800px){
-    html{
+    /* html{
         font-size: 7px;
     }
     body{
         background-color: rgb(21, 255, 0);
-    }
+    } */
     .div-container > div{
         width:95vw;
     
@@ -235,13 +235,13 @@ justify-content: center;
                         /* phone (blue) */
 
 @media (max-width: 400px) {
-    html {
+    /* html {
         font-size: 5px; 
     }
     body {
         background-color: rgb(4, 0, 255);
         padding: 10px;
-    }
+    } */
 
     .faq-title {
         font-size: 3rem; 

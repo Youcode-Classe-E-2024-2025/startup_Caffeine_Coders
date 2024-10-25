@@ -249,7 +249,7 @@ header nav a:hover{
 /* <<<<<<< HEAD */
 
 /* __________________________ carousel____________________ */
-.product h2{
+.product h2,h2{
     font-size: 70px;
     color: #795757;
     text-align: center;
@@ -323,57 +323,105 @@ header nav a:hover{
 
 }
 
-/* ======= */
-/* ======= */
-                       /* contact us page  */
-
-/* @import url('https://fonts.googleapis.com/css2?family=Sniglet:wght@400;800&display=swap');
-
-* {
-    font-family: "Sniglet", system-ui;
-    font-weight: 400;
-    font-style: normal;
-    margin: 0;
+/* contact us */
+.image-faq{
+    height: 618px;
+    background-image: url(../../images/faq.png);
+    background-size: cover;
+   
 }
 
-body {
+.faq-title{
+    padding: 0;
+    margin-left: 4rem;
+    color: white;
+    font-size: 6rem;
 
-    margin: 0px;
-    background-color: #E3D8CC;
-} */
+}
+                            /* section 2 */
+.questions-style {
+    font-size: 2.3rem;
+    background-color: #FAF7F0;
+    /* width: 734.71px; */
+    width: 100%;
+    padding: 20px 30px;
+    border-bottom: solid black 1px;
+    display: flex; justify-content: space-between;
+}
 
+.inswers-style {
+    font-size: 1.8rem;
+    color: #525252;
+    background-color: #FAF7F0;
+    /* width: 734.71px; */
+    width: 100%;
+    padding: 20px 30px;
+    border-bottom: solid black 1px;
+    display: none;
+}
 
-/* .image-contact { */
-    /* height: 1000px; */
-    /* background-image: url(../../images/contact.png);
-    background-size: cover; */
+.div-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 93px;
+    margin-bottom: 166px;
+}
+.div-container > div{
+    width: 734.71px;
+
+}
+.centre-question {
+    background-color: #D9D9D9;
+    height: 35px; 
+    width: 35px; 
+    border-radius: 100%; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.svg-style {
+    fill: #000000;
+    width: 21px;
+}
+
+                            /* section 3 */
+
+.image-contact {
+
+    /* background-image: url(../../images/contact.png); */
+    background-color: var(--fort-brown);
     /* margin-top: 50px; */
-    /* background-color: #664343 ; */
-/* } */
+}
 
-/* .contact {
-    font-size: 80px;
-    color: #795757;
+.contact {
+    font-size: 9rem;
+    color: white;
     text-align: center;
-    background-color: #E3D8CC;
-    padding: 40px;
 }
 
 .infos {
-    font-size: 40px;
+    font-size: 4rem;
     color: white;
     text-align: center;
-} */
-/* 
+}
+
 .centralisation {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    
+    width: 582px;
+    margin: auto;
 
-} */
-/*  
+}
+.centralisation > .col {
+width: 100%;
+display: flex;
+justify-content: center;
+}
 .input1{
     height: 74.97px;
     display: flex;
@@ -384,79 +432,84 @@ body {
 }
 
 .input1 input{
-    width: 262px;
+    width: 50%;
     border-radius: 11px;
     border: none;
-    font-size: 30px;
+    font-size: 3rem;
     outline: none;
-} */
-/* 
+}
+
 .input2 input{
-    width: 582px;
+    width: 100%;
     height: 74.97px;
     margin-bottom: 20px;
     border-radius: 11px;
     border: none;
-    font-size: 30px;
+    font-size: 3rem;
     outline: none;
 }
 
 .input3 input{
     height: 74.97px;
-    width: 582px;
+    width: 100%;
     margin-bottom: 20px;
     border-radius: 11px;
     border: none;
-    font-size: 30px;
+    font-size: 3rem;
     outline: none;
 }
 
-.input4 input{
+.input4 textarea{
     height: 192.91px;
-    width: 582px;
+    width: 100%;
     border-radius: 11px;
     border: none;
-    font-size: 30px;
+    font-size: 3rem;
     outline: none;
     margin-bottom: 20px;
-} */
+}
 
-/* .input5 input{ */
-    /* height: 66px;
-    width: 223px; */
+.input5 input{
+    height: 66px;
+    width: 40%;
+    /* margin:  0 auto; */
     /* margin-top: 28px; */
-    /* border-radius: 11px;
+    border-radius: 11px;
     border: none;
-    font-size: 30px;
-    outline: none; */
-/* } */
-/* 
+    font-size: 3rem;
+    outline: none;
+
+}
+
 .input1 input::placeholder{
-    font-size: 25px;
-    padding-left: 70px;
+    font-size: 2.5rem;
+    text-align: center;
+    /* padding-left: 70px; */
  
 
 }
 
 .input2 input::placeholder {
-    font-size: 25px;
-    padding-left: 190px;
-} */
-/* 
-.input3 input::placeholder {
-    font-size: 25px;
-    padding-left: 170px;
+    font-size: 2.5rem;
+    text-align: center;
+    /* padding-left: 190px; */
 }
 
-.input4 input::placeholder {
-    font-size: 25px;
-    padding-left: 100px;
-} */
-/* .input5 input{
-    font-size: 25px;
+.input3 input::placeholder {
+    font-size: 2.5rem;
+    text-align: center;
+    /* padding-left: 170px; */
+}
+
+.input4 textarea::placeholder {
+    font-size: 2.5rem;
+    text-align: center;
+    padding-top: 60px ;
+}
+.input5 input{
+    font-size: 2.5rem;
     border: solid;
     background-color: #795757;
     color: white;
-}       */
-/* >>>>>>> ajout_js_faq */
-/* >>>>>>> 5078ef4c659427917c4a795370d0bfa8aedf8a55 */
+    
+}
