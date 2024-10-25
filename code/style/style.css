@@ -64,6 +64,10 @@ header nav a:hover{
     letter-spacing: 5px;
     color: rgb(248, 195, 115);
 }
+header nav .nav-icons{
+   display: flex; justify-content: space-between; width: 100px;
+}
+
 .logo img {
     padding: 5px;
     width: 80px;
