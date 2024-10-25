@@ -99,7 +99,7 @@ header{
     right: 100px;
     z-index: 2;
     color: azure;
-    font-size: 70px;
+    font-size: 7rem;
 
 }
 
@@ -108,7 +108,7 @@ header{
 .about-us-container h2 {
     margin-top: 30rem;
     margin-bottom: 10rem;
-    font-size: 70px;
+    font-size: 7rem;
     color: #795757;
     text-align: center;
     left: 50px;
@@ -148,12 +148,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-
 }
-.flex .drinking , .cup{
-
-} 
 
 
  .quotes img{
@@ -172,7 +167,7 @@ header{
 .content > p {
     /* position: absolute;
     top: 70rem; */
-    font-size: 22px;
+    font-size: 2.2rem;
     /* left: 70px; */
     /* right: 70px; */
     /* margin: 30px; */
@@ -190,7 +185,7 @@ header{
     /* left: 40rem; */
     /* top: 95rem; */
 
-    font-size: 30px;
+    font-size: 3rem;
     margin: 0;
     padding: 0;
     color: rgb(80, 25, 7);
@@ -206,13 +201,13 @@ header{
 }
 .second-part h2{
      
-    font-size: 70px;
+    font-size: 7rem;
     color: #795757;
     text-align: center;
     margin-top: 0;
 }
 .second-part h4{
- font-size: 30px;
+ font-size: 3rem;
  text-align: center;
  color: #461010;
  margin-bottom: 10rem;
@@ -250,12 +245,12 @@ header{
 }
 
 .item h5{
-    font-size:23px;
+    font-size:2.3rem;
     color: #b64c05;
 }
 
 .item p{
-    font-size: 15px;
+    font-size: 1.5rem;
     color: #9b4003;
 }
     
@@ -269,7 +264,7 @@ header{
 
 /* __________________________ carousel____________________ */
 .product h2,h2{
-    font-size: 70px;
+    font-size: 7rem;
     color: #795757;
     text-align: center;
     margin-top: 200px;
@@ -507,7 +502,7 @@ justify-content: center;
     border: solid;
     background-color: #795757;
     color: white;
-}       */
+}      
 /* >>>>>>> ajout_js_faq */
 /* >>>>>>> 5078ef4c659427917c4a795370d0bfa8aedf8a55 */
 
@@ -558,7 +553,7 @@ justify-content: center;
             display: block;
         } */
         html{
-            font-size: 7px;
+            font-size: 5px;
         }
         /* img {
             max-width: 100%;
@@ -568,3 +563,4 @@ justify-content: center;
             width: 100%;
             padding: 0 50px;
         }
+    }
